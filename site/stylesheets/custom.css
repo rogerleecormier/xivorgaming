@@ -1,0 +1,17 @@
+.xv-box-parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border:0px solid;
+  gap: 0.5rem 0.5rem;
+  padding: .5rem .5rem .5rem .5rem;
+  justify-content:center
+}
+.xv-box-child {
+  width: 15%;
+  text-align:center;
+  border:0px solid
+}
+.xv-section {
+  border: 2px solid ;
+}

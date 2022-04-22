@@ -1,0 +1,66 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.content.snippets": {
+    "Traitline": {
+      "description": "",
+      "body": [
+        "<div",
+        "  data-armory-embed=\"specializations\"",
+        "  data-armory-ids=\"3,332211\"",
+        "  data-armory-3-traits=\"1761,1774,1749\"",
+        ">",
+        "</div>"
+      ],
+      "fields": []
+    },
+    "Trait": {
+      "description": "",
+      "body": [
+        "<div",
+        "  data-armory-embed=\"traits\"",
+        "  data-armory-ids=\"820,-1,1694\"",
+        "  data-armory-blank-text=\"This could be anything you want!\"",
+        ">",
+        "</div>"
+      ],
+      "fields": []
+    },
+    "Javascript for Tooltips": {
+      "description": "",
+      "body": "<script async src=\"https://unpkg.com/armory-embeds@^0.x.x/armory-embeds.js\"></script>",
+      "fields": []
+    },
+    "Skill (med)": {
+      "description": "",
+      "body": [
+        "<div",
+        "  data-armory-embed=\"skills\"",
+        "  data-armory-ids=\"5508,332211,5510,-1\"",
+        "  data-armory-size=\"40\"",
+        "  data-armory-blank-text=\"This can be replaced with any text!\"",
+        ">",
+        "</div>"
+      ],
+      "fields": []
+    },
+    "Skill (lg)": {
+      "description": "",
+      "body": [
+        "<div",
+        "  data-armory-embed=\"skills\"",
+        "  data-armory-ids=\"5507,5508,5510,5515\">",
+        "</div>"
+      ],
+      "fields": []
+    }
+  },
+  "frontMatter.framework.id": "other",
+  "frontMatter.content.publicFolder": "",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "docs",
+      "path": "[[workspace]]/docs"
+    }
+  ],
+  "frontMatter.dashboard.openOnStart": false
+}

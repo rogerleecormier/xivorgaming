@@ -1,0 +1,6 @@
+import React from react;
+import '@discretize/gw2-ui-new/dist/default_style.css';
+import '@discretize/gw2-ui-new/dist/index.css';
+import { TraitLine } from "@discretize/gw2-ui-new";
+
+<TraitLine defaultSelected={[ 227,214,1672 ]} id={41}/>
