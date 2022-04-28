@@ -1,5 +1,5 @@
 image:
-  name: ghcr.io/peaceiris/mkdocs-material:latest
+  name: xivor/xivortech
 
 pages:
   script:

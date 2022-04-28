@@ -41,7 +41,7 @@ jobs:
 
       - run: python3 -m pip install --upgrade pip pipenv
       - run: pipenv sync --dev
-      - run: pipenv run mkdocs build --config-file ./mkdocs-sample.yml
+      - run: pipenv run mkdocs build --config-file ./mkdocs.yml
 
   netlify:
     runs-on: ubuntu-20.04
@@ -107,7 +107,7 @@ jobs:
       - run: echo "${{ steps.get-version.outputs.version }}"
 
       - name: mkdocs build
-        run: docker-compose run --rm mkdocs mkdocs build --config-file ./mkdocs-sample.yml
+        run: docker-compose run --rm mkdocs mkdocs build --config-file ./mkdocs.yml
 
       - name: Login to Registries
         run: |
