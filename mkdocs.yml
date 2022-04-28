@@ -19,11 +19,11 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: XivorTech
-site_url: https://xivor.tech
+site_name: XivorTK
+site_url: https://xivor.tk
 site_author: Roger Cormier
 site_description: >-
-  XivorTech is the premier place for guides, builds, and strategies for competitive gaming in Guild Wars 2.
+  XivorTK is a resource of information, guides, and builds aimed at competitive PvP in Guild Wars 2.
 
 # Repository
 repo_name: xivor/xivortech
@@ -37,6 +37,7 @@ docs_dir: "docs"
 theme:
   name: "material"
   custom_dir: !ENV [THEME_DIR, "material"]
+  logo: https://res.cloudinary.com/xivorhub/image/upload/v1651084015/download_1_clw8dv.svg
 
   shortcuts:
     help: 191 # ?
@@ -58,9 +59,9 @@ theme:
     - content.code.annotate
     # - content.tabs.link
     # - header.autohide
-    # - navigation.expand
+    - navigation.expand
     - navigation.indexes
-    # - navigation.instant
+    - navigation.instant
     - navigation.sections
     - navigation.tabs
     # - navigation.tabs.sticky
@@ -79,8 +80,8 @@ theme:
         icon: material/weather-night
         name: Switch to dark mode
     - scheme: slate
-      primary: red
-      accent: red
+      primary: orange
+      accent: orange
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
@@ -98,17 +99,13 @@ extra_css:
 plugins:
   - search:
       separator: "[\\s\\-,:!=\\[\\]()\"/]+|\\.(?!\\d)|&[lg]t;|(?!\\b)(?=[A-Z][a-z])"
+  #- awesome-pages
   #- social
   - redirects:
       redirect_maps:
-        changelog/insiders.md: insiders/changelog.md
-        conventions.md: philosophy.md
-        reference/meta-tags.md: reference/index.md
-        reference/variables.md: https://mkdocs-macros-plugin.readthedocs.io/
-        sponsorship.md: insiders/index.md
-        upgrading.md: upgrade.md
   - minify:
       minify_html: true
+  - tags
 
 # Customization
 extra:
@@ -161,6 +158,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_generator: !!python/name:materialx.emoji.to_svg
       emoji_index: !!python/name:materialx.emoji.twemoji
+      options:
+        custom_icons:
+          - overrides/.icons
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -184,7 +184,7 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - "Home": "index.md"
-  - "Builds": "builds"
-  - "Guides": "guides.md"
-  - "Blog": "blog.md"
+  #- "Home": "index.md"
+  #- "Builds": "builds"
+  #- "Guides": "guides.md"
+  #- "Blog": "blog.md"

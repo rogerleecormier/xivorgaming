@@ -1,14 +1,161 @@
-Coming Soon
+# Builds
+A player in WvW is only as good as his build will allow him to be. It is important to select a build that fits your team composition properly. See below for our recommended builds, sorted into primary categories based primary class.
 
------
+## Guardian Builds
+<div class="grid cards" markdown>
 
-See below for example syntax: 
+-   ![Guardian](https://res.cloudinary.com/xivorhub/image/upload/v1650847376/gw2_profession_icons/core/Guardian_tango_icon_48px_wo2xxy.png){ .lg .middle } __Condi Guardian__
 
-# Gear
-|           |     |     |     |     |     |
-| ---       | --- | --- | --- | --- | --- |
-| <div data-armory-embed="items" data-armory-ids="84176" data-armory-84176-stat="1681" data-armory-84176-upgrades="24836" data-armory-84176-upgrade-count={"24836":"6"} data-armory-84176-infusions="43254"></div>Head  | <div data-armory-embed="items" data-armory-ids="82963" data-armory-82963-stat="1681" data-armory-82963-upgrades="24836" data-armory-82963-upgrade-count={"24836":"6"} data-armory-82963-infusions="43254"></div>Shoulders | <div data-armory-embed="items" data-armory-ids="83394" data-armory-83394-stat="1681" data-armory-83394-upgrades="24836" data-armory-83394-upgrade-count={"24836":"6"} data-armory-83394-infusions="43254"></div>Chest | <div data-armory-embed="items" data-armory-ids="82456" data-armory-82456-stat="1681" data-armory-82456-upgrades="24836" data-armory-82456-upgrade-count={"24836":"6"} data-armory-82456-infusions="43254"></div>Hands | <div data-armory-embed="items" data-armory-ids="82196" data-armory-82196-stat="1681" data-armory-82196-upgrades="24836" data-armory-82196-upgrade-count={"24836":"6"} data-armory-82196-infusions="43254"></div>Legs | <div data-armory-embed="items" data-armory-ids="82801" data-armory-82801-stat="1681" data-armory-82801-upgrades="24836" data-armory-82801-upgrade-count={"24836":"6"} data-armory-82801-infusions="43254"></div>Feet | 
-| <div data-armory-embed="items" data-armory-ids="81462" data-armory-81462-stat="1681" data-armory-81462-infusions="43254"></div>Back  | <div data-armory-embed="items" data-armory-ids="81908" data-armory-81908-stat="1681" data-armory-81908-infusions="43254"></div>Accessory | <div data-armory-embed="items" data-armory-ids="91048" data-armory-91048-stat="1681" data-armory-91048-infusions="43254"></div>Accessory | <div data-armory-embed="items" data-armory-ids="91234" data-armory-91234-stat="1681" data-armory-91234-infusions="43254"></div>Ring | <div data-armory-embed="items" data-armory-ids="93105" data-armory-93105-stat="1681" data-armory-93105-infusions="43254"></div>Ring | <div data-armory-embed="items" data-armory-ids="95380" data-armory-95380-stat="1681" data-armory-95380-infusions="87417"></div>Amulet | 
+    ---
 
-<script async src="https://unpkg.com/armory-embeds@^0.x.x/armory-embeds.js"></script> 
+    Powerful ranged damage dealer with good boon application and strong damage mitigation 
+
+    [:octicons-arrow-right-24: Visit Build](#)
+    
+    
+-   ![Dragonhunter](https://res.cloudinary.com/xivorhub/image/upload/v1650846730/gw2_profession_icons/hot/Dragonhunter_tango_icon_48px_ksn5rc.png){ .lg .middle } __Power Dragonhunter__
+
+    ---
+
+    Excellent burst damage as well as long-fight damage while providing top-class boon corruption to the enemy
+
+    [:octicons-arrow-right-24: Visit Build](#)
+
+-   ![Guardian](https://res.cloudinary.com/xivorhub/image/upload/v1650847376/gw2_profession_icons/core/Guardian_tango_icon_48px_wo2xxy.png){ .lg .middle } __Power Guardian__
+
+    ---
+
+    Arguably the best healing for the team, with excellent utility with strong stealth, cleanse, and barrier to buff allies
+
+    [:octicons-arrow-right-24: Visit Build](#)
+
+-   ![Firebrand](https://res.cloudinary.com/xivorhub/image/upload/v1650846951/gw2_profession_icons/pof/Firebrand_tango_icon_48px_wqhcyn.png){ .lg .middle } __Support Firebrand__
+
+    ---
+
+    Excellent utility and support, one of the stronger healers and most useful utility classes for a group
+
+    [:octicons-arrow-right-24: Visit Build](#)
+
+</div>
+
+## Revenant Builds
+<div class="grid cards" markdown>
+
+-   ![Renegade](https://res.cloudinary.com/xivorhub/image/upload/v1650846887/gw2_profession_icons/pof/Renegade_tango_icon_48px_yf647x.png){ .lg .middle } __Condi Renegade__
+
+    ---
+
+    Powerful ranged damage dealer with good boon application and strong damage mitigation 
+
+    [:octicons-arrow-right-24: Visit Build](#)
+    
+-   ![Herald](https://res.cloudinary.com/xivorhub/image/upload/v1650846823/gw2_profession_icons/hot/Herald_tango_icon_48px_fenkmt.png){ .lg .middle } __Power Herald__
+
+    ---
+
+    Powerful ranged damage dealer with good boon application and strong damage mitigation 
+
+    [:octicons-arrow-right-24: Visit Build](#)
+
+-   ![Renegade](https://res.cloudinary.com/xivorhub/image/upload/v1650846887/gw2_profession_icons/pof/Renegade_tango_icon_48px_yf647x.png){ .lg .middle } __Power Renegade__
+
+    ---
+
+    Powerful ranged damage dealer with good boon application and strong damage mitigation 
+
+    [:octicons-arrow-right-24: Visit Build](#)
+
+-   ![Revenant](https://res.cloudinary.com/xivorhub/image/upload/v1650847381/gw2_profession_icons/core/Revenant_tango_icon_48px_f8kt8t.png){ .lg .middle } __Power Revenant__
+
+    ---
+
+    Powerful ranged damage dealer with good boon application and strong damage mitigation 
+
+    [:octicons-arrow-right-24: Visit Build](#)    
+
+-   ![Vindicator](https://res.cloudinary.com/xivorhub/image/upload/v1650847546/gw2_profession_icons/eod/Vindicator_tango_icon_48px_pvkje7.png){ .lg .middle } __Power Vindicator__
+
+    ---
+
+    Powerful ranged damage dealer with good boon application and strong damage mitigation 
+
+    [:octicons-arrow-right-24: Visit Build](#)
+
+
+</div>
+
+## More Builds
+<div class="grid cards" markdown>
+
+-   ![Dummy](https://dummyimage.com/48x48/000/fff&text=Dummy){ .lg .middle } __Dummy Build__
+
+    ---
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+    [:octicons-arrow-right-24: Visit Build](#)
+
+-   ![Dummy](https://dummyimage.com/48x48/000/fff&text=Dummy){ .lg .middle } __Dummy Build__
+
+    ---
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+    [:octicons-arrow-right-24: Visit Build](#)
+
+-   ![Dummy](https://dummyimage.com/48x48/000/fff&text=Dummy){ .lg .middle } __Dummy Build__
+
+    ---
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+    [:octicons-arrow-right-24: Visit Build](#)
+
+-   ![Dummy](https://dummyimage.com/48x48/000/fff&text=Dummy){ .lg .middle } __Dummy Build__
+
+    ---
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+    [:octicons-arrow-right-24: Visit Build](#)
+
+</div>
+
+## Support/Utility Builds
+<div class="grid cards" markdown>
+
+-   ![Dummy](https://dummyimage.com/48x48/000/fff&text=Dummy){ .lg .middle } __Dummy Build__
+
+    ---
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+    [:octicons-arrow-right-24: Visit Build](#)
+
+-   ![Dummy](https://dummyimage.com/48x48/000/fff&text=Dummy){ .lg .middle } __Dummy Build__
+
+    ---
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+    [:octicons-arrow-right-24: Visit Build](#)
+
+-   ![Dummy](https://dummyimage.com/48x48/000/fff&text=Dummy){ .lg .middle } __Dummy Build__
+
+    ---
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+    [:octicons-arrow-right-24: Visit Build](#)
+
+-   ![Dummy](https://dummyimage.com/48x48/000/fff&text=Dummy){ .lg .middle } __Dummy Build__
+
+    ---
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+    [:octicons-arrow-right-24: Visit Build](#)
+
+</div>
 
