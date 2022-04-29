@@ -1,2 +1,8 @@
 
 node_modules
+docker_compose.yml
+amplify.yml
+gitlab-ci.yml
+dockerfile
+mk.bat
+mkdocs-sample.yml

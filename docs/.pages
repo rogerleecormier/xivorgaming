@@ -1,6 +1,6 @@
 nav:
 
-- Home: Home
+- Home: index.md
 - Builds: builds
 - Guides: guides
 - Blog: blog

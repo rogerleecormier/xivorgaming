@@ -71,7 +71,7 @@ theme:
     - search.share
     - search.suggest
     - toc.follow
-    # - toc.integrate
+    - toc.integrate
   palette:
     - scheme: default
       primary: indigo
@@ -99,7 +99,7 @@ extra_css:
 plugins:
   - search:
       separator: "[\\s\\-,:!=\\[\\]()\"/]+|\\.(?!\\d)|&[lg]t;|(?!\\b)(?=[A-Z][a-z])"
-  #- awesome-pages
+  - awesome-pages
   #- social
   - redirects:
       redirect_maps:
@@ -186,5 +186,5 @@ markdown_extensions:
 nav:
   #- "Home": "index.md"
   #- "Builds": "builds"
-  #- "Guides": "guides.md"
-  #- "Blog": "blog.md"
+  #- "Guides": "guides"
+  #- "Blog": "blog"
