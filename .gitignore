@@ -6,3 +6,13 @@ gitlab-ci.yml
 dockerfile
 mk.bat
 mkdocs-sample.yml
+Pipfile
+Pipfile.lock
+package-lock.json
+yarn-error.logv
+yarn.lock
+xivortech.code-workspace
+runtime.txt
+requirements-dev.txt
+.editorconfig
+.frontmatter
