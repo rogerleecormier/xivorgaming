@@ -1,6 +1,6 @@
 backend:
-  name: github
-  repo: pysplash/mkdocs-NetlifyCMS
+  name: git-gateway
+  repo: xivor/xivorgaming
   branch: main
 
 public_folder: "site"
