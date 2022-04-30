@@ -19,3 +19,26 @@
 .xv-iframe {
   border: #1e2124 solid 0px
 }
+
+.md-social__link {
+  display: inline-block;
+  text-align: center;
+  width: 1.6rem;
+  height: 0.8rem;
+}
+
+.md-social__link:hover {
+  color: currentcolor;
+  outline-color: var(--md-accent-fg-color);
+  opacity: .7;
+  transition: transform .4s cubic-bezier(.1,.7,.1,1),opacity .25s;
+}
+
+[dir=ltr] .md-nav--integrated>.md-nav__list>.md-nav__item--active .md-nav--secondary {
+    border-left: 4px solid var(--md-primary-fg-color);
+    margin-left: 30px;
+}
+[dir=ltr] .md-nav__link svg+* {
+  margin-left: .4rem;
+  text-transform: capitalize;
+}

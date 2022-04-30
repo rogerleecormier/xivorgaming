@@ -127,16 +127,16 @@ extra:
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSe8L5YDggZiVjgvBKfv-XCdbQAEJrseRh8MBh-jS92TU2aqzw/viewform?usp=pp_url&entry.853143515={url}" target=_blank>telling us what you're missing</a>.
 
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/squidfunk
-    - icon: fontawesome/brands/gitter
-      link: https://gitter.im/squidfunk/mkdocs-material
-    - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/r/squidfunk/mkdocs-material/
-    - icon: fontawesome/brands/python
-      link: https://pypi.org/project/mkdocs-material/
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/3jf74j
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/squidfunk
+      link: https://twitter.com/xivorrr
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/xivor
+    - icon: fontawesome/brands/twitch
+      link: https://twitch.com/xivor/
+    #- icon: fontawesome/brands/twitter
+    #  link: https://twitter.com/squidfunk
 
 # Extensions
 markdown_extensions:
