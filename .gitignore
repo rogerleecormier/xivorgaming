@@ -1,15 +1,8 @@
 
 node_modules
-docker_compose.yml
-amplify.yml
-gitlab-ci.yml
-dockerfile
 mk.bat
 mkdocs-sample.yml
-Pipfile.lock
-package-lock.json
-yarn-error.logv
-yarn.lock
+yarn-error.log
 xivortech.code-workspace
 runtime.txt
 requirements-dev.txt
