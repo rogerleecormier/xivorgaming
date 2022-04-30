@@ -13,6 +13,8 @@ prompt_toolkit = "==3.0.29"
 pyyaml = "==6.0"
 Jinja2 = "==3.1.1"
 mkdocs-awesome-pages-plugin = "*"
+mkdocs-minify-plugin = "*"
+mkdocs-plugin-tags = "*"
 
 [dev-packages]
 invoke = "*"

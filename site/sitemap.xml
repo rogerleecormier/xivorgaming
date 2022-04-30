@@ -2,72 +2,77 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://xivor.tk/</loc>
-         <lastmod>2022-04-28</lastmod>
+         <lastmod>2022-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xivor.tk/blog/</loc>
-         <lastmod>2022-04-28</lastmod>
+         <lastmod>2022-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xivor.tk/guides/</loc>
-         <lastmod>2022-04-28</lastmod>
+         <lastmod>2022-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xivor.tk/builds/</loc>
-         <lastmod>2022-04-28</lastmod>
+         <lastmod>2022-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xivor.tk/builds/Guardian/condi-guardian/</loc>
-         <lastmod>2022-04-28</lastmod>
+         <lastmod>2022-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xivor.tk/builds/Guardian/power-dragonhunter/</loc>
-         <lastmod>2022-04-28</lastmod>
+         <lastmod>2022-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xivor.tk/builds/Guardian/power-guardian/</loc>
-         <lastmod>2022-04-28</lastmod>
+         <lastmod>2022-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xivor.tk/builds/Guardian/support-firebrand/</loc>
-         <lastmod>2022-04-28</lastmod>
+         <lastmod>2022-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xivor.tk/builds/Mesmer/support-mesmer/</loc>
-         <lastmod>2022-04-28</lastmod>
+         <lastmod>2022-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xivor.tk/builds/Revenant/condi-renegade/</loc>
-         <lastmod>2022-04-28</lastmod>
+         <lastmod>2022-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xivor.tk/builds/Revenant/power-herald/</loc>
-         <lastmod>2022-04-28</lastmod>
+         <lastmod>2022-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xivor.tk/builds/Revenant/power-renegade/</loc>
-         <lastmod>2022-04-28</lastmod>
+         <lastmod>2022-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xivor.tk/builds/Revenant/power-revenant/</loc>
-         <lastmod>2022-04-28</lastmod>
+         <lastmod>2022-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://xivor.tk/builds/Revenant/power-vindicator/</loc>
-         <lastmod>2022-04-28</lastmod>
+         <lastmod>2022-04-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://xivor.tk/tags.html</loc>
+         <lastmod>2022-04-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

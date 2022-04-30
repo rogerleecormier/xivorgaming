@@ -18,18 +18,38 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-# Requirements for core
-jinja2>=2.11.1,<3.1
-markdown>=3.2
-mkdocs>=1.3.0
-mkdocs-material-extensions>=1.0.3
-pygments>=2.10,<2.12
-pymdown-extensions>=9.0,<9.4
+# -----------------------------------------------------------------------------
+# Node, TypeScript, Python
+# -----------------------------------------------------------------------------
 
-# Requirements for social plugin
-cairosvg>=2.5
-pillow>=8.0
-requests>=2.26
+# Dependencies
+node_modules
+__pycache__
+venv
 
-# Requirements for privacy plugin
-lxml>=4.6
+# Build files
+build
+MANIFEST
+manifest.json
+site
+
+# Configuration
+typings
+webpack.config.ts
+
+# Distribution files
+dist
+mkdocs_material.egg-info
+
+# Caches and logs
+*.cpuprofile
+*.log
+*.tsbuildinfo
+.eslintcache
+
+# -----------------------------------------------------------------------------
+# General
+# -----------------------------------------------------------------------------
+
+# Temporary files
+tmp

@@ -18,18 +18,23 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-# Requirements for core
-jinja2>=2.11.1,<3.1
-markdown>=3.2
-mkdocs>=1.3.0
-mkdocs-material-extensions>=1.0.3
-pygments>=2.10,<2.12
-pymdown-extensions>=9.0,<9.4
+# Top-level config
+root = true
 
-# Requirements for social plugin
-cairosvg>=2.5
-pillow>=8.0
-requests>=2.26
+# All files
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
 
-# Requirements for privacy plugin
-lxml>=4.6
+# Markdown
+[*.md]
+trim_trailing_whitespace = false
+
+# Python
+[*.py]
+indent_style = space
+indent_size = 4

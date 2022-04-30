@@ -19,18 +19,18 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: XivorGaming
+site_name: XivorTK
 site_url: https://xivor.tk
 site_author: Roger Cormier
 site_description: >-
-  XivorGaming is a resource of information, guides, and builds aimed at competitive world PvP in Guild Wars 2.
+  XivorTK is a resource of information, guides, and builds aimed at competitive PvP in Guild Wars 2.
 
 # Repository
 repo_name: xivor/xivortech
 repo_url: https://github.com/xivor/xivortech
 
 # Copyright
-copyright: Copyright &copy; 2022 Roger Lee Cormier
+copyright: Copyright &copy; 2022 Roger Cormier
 
 # Configuration
 docs_dir: "docs"
