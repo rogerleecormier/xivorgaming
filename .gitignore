@@ -6,7 +6,6 @@ gitlab-ci.yml
 dockerfile
 mk.bat
 mkdocs-sample.yml
-Pipfile
 Pipfile.lock
 package-lock.json
 yarn-error.logv
