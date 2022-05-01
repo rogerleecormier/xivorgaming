@@ -17,9 +17,18 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Publish Date", name: "date", widget: "string"}
-  - name: "getting-started"
-    label: "Getting Started"
-    folder: "docs/getting-started"
+  - name: "builds"
+    label: "Builds"
+    folder: "docs/builds"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Publish Date", name: "date", widget: "string"}
+  - name: "guardian"
+    label: "Guardian"
+    folder: "docs/builds/guardian"
     create: true
     slug: "{{slug}}"
     fields:
