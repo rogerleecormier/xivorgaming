@@ -1,5 +1,21 @@
 {
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "other",
+  "frontMatter.content.publicFolder": "",
+  "frontMatter.content.pageFolders": [
+    {
+      "path": "[[workspace]]/docs"
+    },
+    {
+      "title": "builds",
+      "path": "[[workspace]]/docs/builds"
+    },
+    {
+      "title": "Guardian",
+      "path": "[[workspace]]/docs/builds/Guardian"
+    }
+  ],
+  "frontMatter.dashboard.openOnStart": false,
   "frontMatter.content.snippets": {
     "Traitline": {
       "description": "",
@@ -53,14 +69,5 @@
       ],
       "fields": []
     }
-  },
-  "frontMatter.framework.id": "other",
-  "frontMatter.content.publicFolder": "",
-  "frontMatter.content.pageFolders": [
-    {
-      "title": "docs",
-      "path": "[[workspace]]/docs"
-    }
-  ],
-  "frontMatter.dashboard.openOnStart": false
+  }
 }
