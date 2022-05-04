@@ -4,15 +4,8 @@
   "frontMatter.content.publicFolder": "",
   "frontMatter.content.pageFolders": [
     {
+      "title": "docs",
       "path": "[[workspace]]/docs"
-    },
-    {
-      "title": "builds",
-      "path": "[[workspace]]/docs/builds"
-    },
-    {
-      "title": "Guardian",
-      "path": "[[workspace]]/docs/builds/Guardian"
     }
   ],
   "frontMatter.dashboard.openOnStart": false,

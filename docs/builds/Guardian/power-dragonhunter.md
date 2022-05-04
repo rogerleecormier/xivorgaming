@@ -1,10 +1,17 @@
 ---
+title: Power Dragonhunter
+slug: power-dragonhunter
+description: ""
+date: 2022-05-02T00:28:25.298Z
+lastmod: 2022-05-03T01:20:01.377Z
+draft: true
 tags:
-  - Guardian
-  - Dragonhunter
-  - Power
-  - Backline
-  - DPS
+  - guardian
+  - dragonhunter
+  - power
+  - backline
+  - dps
+  - stability
 icon: material/arm-flex
 ---
 

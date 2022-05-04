@@ -1,11 +1,17 @@
 ---
+title: Power Guardian
+slug: power-guardian
+description: ""
+date: 2022-05-02T04:23:58.669Z
+lastmod: 2022-05-03T01:19:55.380Z
+draft: true
 tags:
-  - Guardian
-  - Power
-  - Backline
-  - DPS
+  - guardian
+  - power
+  - backline
+  - dps
+  - stability
 icon: material/arm-flex
-lastmod: 2022-05-01T12:11:05.483Z
 ---
 
 

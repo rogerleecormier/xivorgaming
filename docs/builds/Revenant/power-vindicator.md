@@ -1,11 +1,13 @@
 ---
 tags:
-  - Revenant
-  - Vindicator
-  - Power
-  - Backline
-  - DPS
+  - revenant
+  - vindicator
+  - power
+  - backline
+  - dps
+  - damage mitigation
 icon: material/arm-flex
+lastmod: 2022-05-03T01:25:33.251Z
 ---
 
 # Power Vindicator
