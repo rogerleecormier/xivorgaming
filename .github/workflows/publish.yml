@@ -59,7 +59,6 @@ jobs:
           tags: |
             ghcr.io/${{ env.REPOSITORY_NAME }}:latest
             ghcr.io/${{ env.REPOSITORY_NAME }}:${{ github.event.ref }}
-
       - name: Check Docker image
         run:
           docker run --rm -i -v ${PWD}:/docs ghcr.io/${{ env.REPOSITORY_NAME }} build
