@@ -34,7 +34,11 @@
   transition: transform .4s cubic-bezier(.1,.7,.1,1),opacity .25s;
 }
 
-.md-nav--integrated>.md-nav__list>.md-nav__item--active .md-nav--secondary {
-    border-left: 5px solid var(--md-primary-fg-color);
+[dir=ltr] .md-nav--integrated>.md-nav__list>.md-nav__item--active .md-nav--secondary {
+    border-left: 4px solid var(--md-primary-fg-color);
     margin-left: 30px;
+}
+[dir=ltr] .md-nav__link svg+* {
+  margin-left: .4rem;
+  text-transform: capitalize;
 }

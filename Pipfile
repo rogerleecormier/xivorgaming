@@ -4,20 +4,22 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [packages]
-mkdocs = "==1.3.0"
-mkdocs-material = "==8.2.9"
-mkdocs-redirects = "==1.0.4"
-python-markdown-math = "==0.8"
-Pygments = "==2.11.2"
-prompt_toolkit = "==3.0.29"
-pyyaml = "==6.0"
-Jinja2 = "==3.1.1"
-mkdocs-awesome-pages-plugin = "*"
-mkdocs-minify-plugin = "*"
-mkdocs-plugin-tags = "*"
+mkdocs = ">=1.3.0"
+mkdocs-material-extensions = ">=1.0.3"
+pymdown-extensions = ">=9.4"
+requests = ">=2.26"
+lxml = ">=4.6"
+mkdocs-minify-plugin = ">=0.5.0"
+mkdocs-redirects = ">=1.0.4"
+mkdocs-awesome-pages-plugin = ">=2.7.0"
+Jinja2 = ">=2.11.1,<3.1"
+Markdown = ">=3.2"
+Pygments = ">=2.12"
+CairoSVG = ">=2.5"
+Pillow = ">=8.0"
+mkdocs-material = "*"
 
 [dev-packages]
-invoke = "*"
 
 [requires]
 python_version = "3.8"

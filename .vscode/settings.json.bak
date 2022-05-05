@@ -1,0 +1,5 @@
+{
+  "[markdown]": {},
+  "frontMatter.preview.host": "http://127.0.0.1:8000",
+  "frontMatter.framework.startCommand": "mkdocs serve"
+}
