@@ -9,7 +9,6 @@ tags:
   - alacrity
   - damage mitigation
 icon: material/fire
-lastmod: 2022-05-03T01:24:31.320Z
+lastmod: 2022-05-06T05:23:07.198Z
 ---
-
-Lorem Ipsum
+{{ page.meta.tags }}
