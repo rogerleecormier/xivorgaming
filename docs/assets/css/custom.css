@@ -121,3 +121,8 @@
   border-right: 4px solid transparent;
   opacity: 0.4;
 }
+
+
+.dataTable-pagination-list {
+  margin-top: 0rem;
+}
