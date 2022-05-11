@@ -96,7 +96,7 @@
   border-spacing: 0;
   border-collapse: separate;
   font-size: 12px;
-  border: 1px solid #cdcdcd;
+  /* border: 1px solid #cdcdcd; */
 }
 
 .dataTable-table > tbody > tr > td,
