@@ -10,7 +10,7 @@ A player in WvW is only as good as his build will allow him to be. It is importa
 
     Powerful ranged damage dealer with good boon application and strong damage mitigation 
 
-    [:octicons-arrow-right-24: Visit Build](#)
+    [:octicons-arrow-right-24: Visit Build](/builds/guardian/condi-guardian/)
     
     
 -   ![Dragonhunter](https://res.cloudinary.com/xivorhub/image/upload/v1650846730/gw2_profession_icons/hot/Dragonhunter_tango_icon_48px_ksn5rc.png){ .lg .middle } __Power Dragonhunter__
@@ -19,7 +19,7 @@ A player in WvW is only as good as his build will allow him to be. It is importa
 
     Excellent burst damage as well as long-fight damage while providing top-class boon corruption to the enemy
 
-    [:octicons-arrow-right-24: Visit Build](#)
+    [:octicons-arrow-right-24: Visit Build](/builds/guardian/power-dragonhunter/)
 
 -   ![Guardian](https://res.cloudinary.com/xivorhub/image/upload/v1650847376/gw2_profession_icons/core/Guardian_tango_icon_48px_wo2xxy.png){ .lg .middle } __Power Guardian__
 
@@ -27,7 +27,7 @@ A player in WvW is only as good as his build will allow him to be. It is importa
 
     Arguably the best healing for the team, with excellent utility with strong stealth, cleanse, and barrier to buff allies
 
-    [:octicons-arrow-right-24: Visit Build](#)
+    [:octicons-arrow-right-24: Visit Build](/builds/guardian/power-guardian/)
 
 -   ![Firebrand](https://res.cloudinary.com/xivorhub/image/upload/v1650846951/gw2_profession_icons/pof/Firebrand_tango_icon_48px_wqhcyn.png){ .lg .middle } __Support Firebrand__
 
@@ -35,7 +35,7 @@ A player in WvW is only as good as his build will allow him to be. It is importa
 
     Excellent utility and support, one of the stronger healers and most useful utility classes for a group
 
-    [:octicons-arrow-right-24: Visit Build](#)
+    [:octicons-arrow-right-24: Visit Build](/builds/guardian/support_firebrand/)
 
 </div>
 
@@ -48,7 +48,7 @@ A player in WvW is only as good as his build will allow him to be. It is importa
 
     Powerful ranged damage dealer with good boon application and strong damage mitigation 
 
-    [:octicons-arrow-right-24: Visit Build](#)
+    [:octicons-arrow-right-24: Visit Build](/builds/guardian/condi-renegade/)
     
 -   ![Herald](https://res.cloudinary.com/xivorhub/image/upload/v1650846823/gw2_profession_icons/hot/Herald_tango_icon_48px_fenkmt.png){ .lg .middle } __Power Herald__
 
@@ -56,7 +56,7 @@ A player in WvW is only as good as his build will allow him to be. It is importa
 
     Powerful ranged damage dealer with good boon application and strong damage mitigation 
 
-    [:octicons-arrow-right-24: Visit Build](#)
+    [:octicons-arrow-right-24: Visit Build](/builds/guardian/power_herald/)
 
 -   ![Renegade](https://res.cloudinary.com/xivorhub/image/upload/v1650846887/gw2_profession_icons/pof/Renegade_tango_icon_48px_yf647x.png){ .lg .middle } __Power Renegade__
 
@@ -64,7 +64,7 @@ A player in WvW is only as good as his build will allow him to be. It is importa
 
     Powerful ranged damage dealer with good boon application and strong damage mitigation 
 
-    [:octicons-arrow-right-24: Visit Build](#)
+    [:octicons-arrow-right-24: Visit Build](/builds/guardian/power-renegade/)
 
 -   ![Revenant](https://res.cloudinary.com/xivorhub/image/upload/v1650847381/gw2_profession_icons/core/Revenant_tango_icon_48px_f8kt8t.png){ .lg .middle } __Power Revenant__
 
@@ -72,7 +72,7 @@ A player in WvW is only as good as his build will allow him to be. It is importa
 
     Powerful ranged damage dealer with good boon application and strong damage mitigation 
 
-    [:octicons-arrow-right-24: Visit Build](#)    
+    [:octicons-arrow-right-24: Visit Build](/builds/guardian/power_revenant/)    
 
 -   ![Vindicator](https://res.cloudinary.com/xivorhub/image/upload/v1650847546/gw2_profession_icons/eod/Vindicator_tango_icon_48px_pvkje7.png){ .lg .middle } __Power Vindicator__
 
@@ -80,7 +80,7 @@ A player in WvW is only as good as his build will allow him to be. It is importa
 
     Powerful ranged damage dealer with good boon application and strong damage mitigation 
 
-    [:octicons-arrow-right-24: Visit Build](#)
+    [:octicons-arrow-right-24: Visit Build](/builds/guardian/power_vindicator/)
 
 
 </div>

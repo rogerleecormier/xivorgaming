@@ -94,7 +94,7 @@ theme:
 
 # Custom Stylesheet
 extra_css:
-  - stylesheets/custom.css
+  - assets/css/custom.css
 # Plugins
 plugins:
   - search:

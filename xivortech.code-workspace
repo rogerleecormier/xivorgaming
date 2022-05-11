@@ -4,9 +4,11 @@
       "path": "."
     }
   ],
-  "settings": {
-    "frontMatter.preview.host": "http://127.0.0.1:8000",
-    "frontMatter.dashboard.openOnStart": true,
-    "frontMatter.framework.startCommand": "mkdocs serve"
+	"settings": {
+		"frontMatter.content.publicFolder": "",
+		"frontMatter.dashboard.openOnStart": true,
+		"frontMatter.framework.startCommand": "mkdocs serve",
+		"frontMatter.preview.host": "http://127.0.0.1:8000/",
+		"frontMatter.content.autoUpdateDate": true
   }
 }
