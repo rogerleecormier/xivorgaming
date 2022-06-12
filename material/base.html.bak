@@ -6,15 +6,18 @@ This file was automatically generated - do not edit
 <html lang="{{ lang.t('language') }}" class="no-js">
 
 <head>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" type="text/css">
+
   {% block site_meta %}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  {% if page.meta and page.meta.description %}
+  {% if page and page.meta and page.meta.description %}
   <meta name="description" content="{{ page.meta.description }}">
   {% elif config.site_description %}
   <meta name="description" content="{{ config.site_description }}">
   {% endif %}
-  {% if page.meta and page.meta.author %}
+  {% if page and page.meta and page.meta.author %}
   <meta name="author" content="{{ page.meta.author }}">
   {% elif config.site_author %}
   <meta name="author" content="{{ config.site_author }}">
@@ -28,22 +31,22 @@ This file was automatically generated - do not edit
   {% endfor %}
   {% endif %}
   <link rel="icon" href="{{ config.theme.favicon | url }}">
-  <meta name="generator" content="mkdocs-{{ mkdocs_version }}, mkdocs-material-8.3.3+insiders-4.17.2">
+  <meta name="generator" content="mkdocs-{{ mkdocs_version }}, mkdocs-material-8.2.9+insiders-4.12.0">
   {% endblock %}
   {% block htmltitle %}
-  {% if page.meta and page.meta.title %}
+  {% if page and page.meta and page.meta.title %}
   <title>{{ page.meta.title }} - {{ config.site_name }}</title>
-  {% elif page.title and not page.is_homepage %}
+  {% elif page and page.title and not page.is_homepage %}
   <title>{{ page.title | striptags }} - {{ config.site_name }}</title>
   {% else %}
   <title>{{ config.site_name }}</title>
   {% endif %}
   {% endblock %}
   {% block styles %}
-  <link rel="stylesheet" href="{{ 'assets/stylesheets/main.8c78faf4.min.css' | url }}">
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/main.25650c35.min.css' | url }}">
   {% if config.theme.palette %}
   {% set palette = config.theme.palette %}
-  <link rel="stylesheet" href="{{ 'assets/stylesheets/palette.cbb835fc.min.css' | url }}">
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/palette.9647289d.min.css' | url }}">
   {% if palette.primary %}
   {% import "partials/palette.html" as map %}
   {% set primary = map.primary(
@@ -151,7 +154,7 @@ This file was automatically generated - do not edit
     </div>
     {% endif %}
     {% block header %}
-    {% include "partials/header.html" %}
+    {% include "overrides/partials/header.html" %}
     {% endblock %}
     <div class="md-container" data-md-component="container">
       {% block hero %}{% endblock %}
@@ -166,7 +169,7 @@ This file was automatically generated - do not edit
         <div class="md-main__inner md-grid">
           {% block site_nav %}
           {% if nav %}
-          {% if page.meta and page.meta.hide %}
+          {% if page and page.meta and page.meta.hide %}
           {% set hidden = "hidden" if "navigation" in page.meta.hide %}
           {% endif %}
           <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" {{ hidden
@@ -179,7 +182,7 @@ This file was automatically generated - do not edit
           </div>
           {% endif %}
           {% if not "toc.integrate" in features %}
-          {% if page.meta and page.meta.hide %}
+          {% if page and page.meta and page.meta.hide %}
           {% set hidden = "hidden" if "toc" in page.meta.hide %}
           {% endif %}
           <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" {{ hidden }}>
@@ -201,7 +204,7 @@ This file was automatically generated - do not edit
           </div>
         </div>
         {% if "navigation.top" in features %}
-        <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+        <a href="#" class="md-top md-top--hidden md-icon" data-md-component="top">
           {% include ".icons/material/arrow-up.svg" %}
           {{ lang.t('top.title') }}
         </a>
@@ -230,13 +233,10 @@ This file was automatically generated - do not edit
     "base": base_url,
     "features": features,
     "translations": {},
-    "search": "assets/javascripts/workers/search.bb370e14.min.js" | url
+    "search": "assets/javascripts/workers/search.2c028271.min.js" | url
     } -%}
     {%- if config.extra.version -%}
     {%- set _ = app.update({ "version": config.extra.version }) -%}
-    {%- endif -%}
-    {%- if config.extra.tags -%}
-    {%- set _ = app.update({ "tags": config.extra.tags }) -%}
     {%- endif -%}
     {%- set translations = app.translations -%}
     {%- for key in [
@@ -262,7 +262,7 @@ This file was automatically generated - do not edit
       </script>
     {% endblock %}
     {% block scripts %}
-    <script src="{{ 'assets/javascripts/bundle.fdb661c6.min.js' | url }}"></script>
+    <script src="{{ 'assets/javascripts/bundle.36b9b33b.min.js' | url }}"></script>
     {% for path in config["extra_javascript"] %}
     <script src="{{ path | url }}"></script>
     {% endfor %}
