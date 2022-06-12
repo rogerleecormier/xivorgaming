@@ -1,4 +1,4 @@
-name: ci
+name: ci-insiders
 on:
   push:
     branches:
