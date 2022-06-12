@@ -3,8 +3,7 @@ title: Power Guardian
 slug: power-guardian
 description: ""
 date: 2022-05-02T04:23:58.669Z
-lastmod: 2022-05-09T11:47:01.349Z
-draft: true
+lastmod: 2022-05-17T14:52:44.764Z
 tags:
   - guardian
   - power
@@ -12,6 +11,46 @@ tags:
   - dps
   - stability
 icon: material/arm-flex
+gear:
+  upgrades:
+    rune: 24836
+    infusion: 43254
+  head:
+    name: Dragon
+    affix: 1681
+  shoulders:
+    name: Dragon
+    affix: 1681
+  chest:
+    name: Dragon
+    affix: 1681
+  hands:
+    name: Dragon
+    affix: 1681
+  legs:
+    name: Dragon
+    affix: 1681
+  feet:
+    name: Dragon
+    affix: 1681
+  back:
+    name: Dragon
+    affix: 1681
+  accessory1:
+    name: Dragon
+    affix: 1681
+  accessory2:
+    name: Dragon
+    affix: 1681
+  ring1:
+    name: Dragon
+    affix: 1681
+  ring2:
+    name: Dragon
+    affix: 1681
+  amulet:
+    name: Dragon
+    affix: 1681
 ---
 
 
@@ -27,25 +66,16 @@ The Power Dragonhunter provides an enormous amount of damage, both ranged and me
 ## Gear
 === "Optimal Armor Stats"
 
-	|Head|Shoulders|Chest|Hands|Legs|Feet|
-	|:---:|:---:|:---:|:---:|:---:|:---:|
-	|<div data-armory-embed="items" data-armory-ids="84176" data-armory-84176-stat="1681" data-armory-84176-upgrades="24836" data-armory-84176-upgrade-count={"24836":"6"} data-armory-84176-infusions="43254"></div>|<div data-armory-embed="items" data-armory-ids="82963" data-armory-82963-stat="1681" data-armory-82963-upgrades="24836" data-armory-82963-upgrade-count={"24836":"6"} data-armory-82963-infusions="43254"></div>|<div data-armory-embed="items" data-armory-ids="83394" data-armory-83394-stat="1681" data-armory-83394-upgrades="24836" data-armory-83394-upgrade-count={"24836":"6"} data-armory-83394-infusions="43254"></div>|<div data-armory-embed="items" data-armory-ids="82456" data-armory-82456-stat="1681" data-armory-82456-upgrades="24836" data-armory-82456-upgrade-count={"24836":"6"} data-armory-82456-infusions="43254"></div>|<div data-armory-embed="items" data-armory-ids="82196" data-armory-82196-stat="1681" data-armory-82196-upgrades="24836" data-armory-82196-upgrade-count={"24836":"6"} data-armory-82196-infusions="43254"></div>|<div data-armory-embed="items" data-armory-ids="82801" data-armory-82801-stat="1681" data-armory-82801-upgrades="24836" data-armory-82801-upgrade-count={"24836":"6"} data-armory-82801-infusions="43254"></div>|
-	|Dragon's|Dragon's|Dragon's|Dragon's|Dragon's|Dragon's|
-
-	|Back|Accessory|Accessory|Ring|Ring|Amulet|
-	|:---:|:---:|:---:|:---:|:---:|:---:|
-	|<div data-armory-embed="items" data-armory-ids="81462" data-armory-81462-stat="1681" data-armory-81462-infusions="43254"></div> |<div data-armory-embed="items" data-armory-ids="81908" data-armory-81908-stat="1681" data-armory-81908-infusions="43254"></div>|<div data-armory-embed="items" data-armory-ids="91048" data-armory-91048-stat="1681" data-armory-91048-infusions="43254"></div>|<div data-armory-embed="items" data-armory-ids="91234" data-armory-91234-stat="1681" data-armory-91234-infusions="43254"></div>|<div data-armory-embed="items" data-armory-ids="93105" data-armory-93105-stat="1681" data-armory-93105-infusions="43254"></div>|<div data-armory-embed="items" data-armory-ids="95380" data-armory-95380-stat="1681" data-armory-95380-infusions="87417"></div>|  
-	|Dragon's|Dragon's|Dragon's|Dragon's|Dragon's|Dragon's|
+{% include "heavy_armor_tab.md" %}
+	
+{% include "trinkets_tab.md" %}
 
 	!!! note
 	This armor and stat selection gives the most optimize selection of gear to maximizing DPS while still meeting the 20k HP threshold.
 	
 === "Full Dragon's Stats"
 																			
-	|Head|Shoulders|Chest|Hands|Legs|Feet|
-	|:---:|:---:|:---:|:---:|:---:|:---:|
-	|<div data-armory-embed="items" data-armory-ids="84176" data-armory-84176-stat="1681" data-armory-84176-upgrades="24836" data-armory-84176-upgrade-count={"24836":"6"} data-armory-84176-infusions="43254"></div>|<div data-armory-embed="items" data-armory-ids="82963" data-armory-82963-stat="1681" data-armory-82963-upgrades="24836" data-armory-82963-upgrade-count={"24836":"6"} data-armory-82963-infusions="43254"></div>|<div data-armory-embed="items" data-armory-ids="83394" data-armory-83394-stat="1681" data-armory-83394-upgrades="24836" data-armory-83394-upgrade-count={"24836":"6"} data-armory-83394-infusions="43254"></div>|<div data-armory-embed="items" data-armory-ids="82456" data-armory-82456-stat="1681" data-armory-82456-upgrades="24836" data-armory-82456-upgrade-count={"24836":"6"} data-armory-82456-infusions="43254"></div>|<div data-armory-embed="items" data-armory-ids="82196" data-armory-82196-stat="1681" data-armory-82196-upgrades="24836" data-armory-82196-upgrade-count={"24836":"6"} data-armory-82196-infusions="43254"></div>|<div data-armory-embed="items" data-armory-ids="82801" data-armory-82801-stat="1681" data-armory-82801-upgrades="24836" data-armory-82801-upgrade-count={"24836":"6"} data-armory-82801-infusions="43254"></div>|
-	|Dragon's|Dragon's|Dragon's|Dragon's|Dragon's|Dragon's|
+{% include "heavy_armor_tab.md" %}
 
 	|Back|Accessory|Accessory|Ring|Ring|Amulet|
 	|:---:|:---:|:---:|:---:|:---:|:---:|

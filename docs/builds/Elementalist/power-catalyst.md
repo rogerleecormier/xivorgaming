@@ -1,6 +1,6 @@
 ---
 title: Power Catalyst
-lastmod: 2022-05-03T00:27:25.459Z
+lastmod: 2022-05-17T13:51:26.502Z
 tags:
   - catalyst
   - dps
@@ -8,6 +8,5 @@ tags:
   - power
   - backline
 icon: material/arm-flex
-draft: true
 ---
 lorem ipsum

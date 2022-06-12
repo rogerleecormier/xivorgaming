@@ -1,6 +1,6 @@
 ---
 title: Support Mesmer
-lastmod: 2022-05-03T01:27:38.580Z
+lastmod: 2022-05-17T13:49:58.329Z
 tags:
   - mesmer
   - chronomancer
@@ -8,6 +8,5 @@ tags:
   - utility
   - frontline
 icon: material/heart
-draft: true
 ---
 lorem ipsum

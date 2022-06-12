@@ -1,5 +1,5 @@
 ---
 template: overrides/blog.html
-title: XivorGaming - Blog
-lastmod: 2022-05-04T19:44:50.472Z
+title: Blog
+lastmod: 2022-05-17T13:48:23.031Z
 ---

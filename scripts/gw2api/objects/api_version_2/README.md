@@ -1,0 +1,153 @@
+# GuildWars2 API version 2
+
+> Contains all API objects exposed by the GW2 APIv2. Official
+> documentation can be found [here](https://wiki.guildwars2.com/wiki/API:2)
+
+##### Objects
+----
+
+- Account
+    - Achievements
+    - Bank
+    - Build Storage
+    - Daily Crafting
+    - Dungeons
+    - Dyes
+    - Emotes
+    - Finishers
+    - Gliders
+    - Home Cats
+    - Home Nodes
+    - Inventory
+    - Luck
+    - Mailcarriers
+    - Map Chests
+    - Masteries
+    - Mastery Points
+    - Materials
+    - Minis
+    - Mounts Skins
+    - Mounts Types
+    - Novelties
+    - Outfits
+    - Pvp Heroes
+    - Raids
+    - Recipes
+    - Skins
+    - Titles
+    - Wallet
+    - World Bosses
+- Achievements
+    - Categories
+    - Daily
+    - Daily Tomorrow
+    - Groups
+- Backstory Answers
+- Backstory Questions
+- Build
+- Characters
+    - Backstory
+    - Build Tabs
+    - Build Tabs Active
+    - Core
+    - Crafting
+    - Equipment
+    - Equipment Tabs
+    - Equipment Tabs Active
+    - Hero Points
+    - Inventory
+    - Quests
+    - Recipes
+    - Sab
+    - Skills
+    - Specializations
+    - Training
+- Colors
+- Commerce
+    - Delivery
+    - Exchange
+    - Exchange Coins
+    - Exchange Gems
+    - Listings
+    - Prices
+    - Transactions
+- Continents
+- Create Sub Token
+- Currencies
+- Daily Crafting
+- Dungeons
+- Emblem
+    - Backgrounds
+    - Foregrounds
+- Emotes
+- Files
+- Finishers
+- Gliders
+- Guild ID
+    - Log
+    - Members
+    - Ranks
+    - Stash
+    - Storage
+    - Teams
+    - Treasury
+    - Upgrades
+- Guild
+    - Permissions
+    - Search
+    - Upgrades
+- Home Cats
+- Home Nodes
+- Items
+- Itemstats
+- Legends
+- Mailcarriers
+- Map Chests
+- Maps
+- Masteries
+- Materials
+- Minis
+- Mounts Skins
+- Mounts Types
+- Nodes
+- Novelties
+- Outfits
+- Pets
+- Professions
+- PvP
+    - Amulets
+    - Games
+    - Heroes
+    - Ranks
+    - Seasons
+    - Seasons Leaderboards
+    - Standings
+    - Stats
+- Quaggans
+- Quests
+- Races
+- Raids
+- Recipes
+- Recipes Search
+- Skills
+- Skins
+- Specializations
+- Stories
+- Stories Seasons
+- Titles
+- Tokeninfo
+- Traits
+- World Bosses
+- Worlds
+- WvW
+    - Abilities
+    - Matches
+    - Matches Overview
+    - Matches Scores
+    - Matches Stats
+    - Matches Stats Guilds
+    - Matches Stats Teams KDR
+    - Matches Stats Teams Kills
+    - Objectives
+    - Ranks
+    - Upgrades

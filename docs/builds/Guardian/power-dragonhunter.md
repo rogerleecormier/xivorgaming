@@ -3,8 +3,7 @@ title: Power Dragonhunter
 slug: power-dragonhunter
 description: ""
 date: 2022-05-02T00:28:25.298Z
-lastmod: 2022-05-06T10:30:36.018Z
-draft: true
+lastmod: 2022-05-17T13:50:24.991Z
 tags:
   - guardian
   - dragonhunter
