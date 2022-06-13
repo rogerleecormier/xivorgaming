@@ -3,6 +3,7 @@ import time
 import json
 import yaml
 import pandas as pd
+from pandas.core.common import flatten
 import pandas.io.formats.style
 import os
 import re
@@ -12,6 +13,7 @@ amount_per_chunk = 100
 time_to_sleep = 0.5
 gw2 = GuildWars2Client()
 specializations = []
+
 for i in gw2.specializations.get():
     specializations.append(i)
 
@@ -42,14 +44,14 @@ def get_json(lst):
     jsonProcessed = json.dumps(data, indent=2)
     jsonFile = open(search_term + ".json", "w")
     jsonFile.write(jsonProcessed)
-    jsonFile.close() 
+    jsonFile.close()
 
 
 def parse_json():
     with open(search_term + ".json") as output:
         data = json.load(output)
         for key in data:
-            del key['icon']
+            del key["icon"]
     return
 
 
@@ -59,26 +61,6 @@ def get_yaml(lst):
     yamlFile.write(yamlString)
     yamlFile.close()
 
-
-def get_html(lst):
-    df = pd.DataFrame(data=lst)
-    df.pop("icon")
-    df.pop("background")
-    df.pop("weapon_trait")
-    df.pop("profession_icon_big")
-    df.pop("profession_icon")
-    df.columns = [
-        "API ID",
-        "Specialization",
-        "Profession",
-        "Elite?",
-        "Minor Trait IDs",
-        "Major Trait IDs",
-    ]
-    df.set_index("API ID")
-    htmlFile = df.to_html(
-        search_term + ".html", table_id=search_term, index=False
-    )
 
 def get_df(lst):
     df = pd.DataFrame(data=lst)
@@ -95,6 +77,45 @@ def get_df(lst):
         "Minor Trait IDs",
         "Major Trait IDs",
     ]
+    df.set_index("API ID")
+    df["Trait IDs"] = df["Major Trait IDs"] + df["Minor Trait IDs"]
+    flattened_col = pd.DataFrame(
+        [
+            (index, value)
+            for (index, values) in df["Trait IDs"].iteritems()
+            for value in values
+        ],
+        columns=["index", "Trait IDs"],
+    ).set_index("index")
+    df = df.drop("Trait IDs", axis=1).join(flattened_col)
+    df = df.drop("Minor Trait IDs", axis=1)
+    df = df.drop("Major Trait IDs", axis=1)
+    return df
+
+
+def get_html(lst):
+    df = get_df(lst)
+    htmlFile = df.to_html(
+        search_term + ".html", table_id=search_term, index=False
+    )
+
+
+def get_df(lst):
+    df = pd.DataFrame(data=lst)
+    df.pop("icon")
+    df.pop("background")
+    df.pop("weapon_trait")
+    df.pop("profession_icon_big")
+    df.pop("profession_icon")
+    df.columns = [
+        "API ID",
+        "Specialization",
+        "Profession",
+        "Elite?",
+        "Minor Trait IDs",
+        "Major Trait IDs",
+    ]
+
 
 def writeHTML(lst):
     PATH = "../material/overrides/"
@@ -114,8 +135,20 @@ def writeHTML(lst):
         "Major Trait IDs",
     ]
     df.set_index("API ID")
+    df["Trait IDs"] = df["Major Trait IDs"] + df["Minor Trait IDs"]
+    flattened_col = pd.DataFrame(
+        [
+            (index, value)
+            for (index, values) in df["Trait IDs"].iteritems()
+            for value in values
+        ],
+        columns=["index", "Trait IDs"],
+    ).set_index("index")
+    df = df.drop("Trait IDs", axis=1).join(flattened_col)
+    df = df.drop("Minor Trait IDs", axis=1)
+    df = df.drop("Major Trait IDs", axis=1)
     
-    result = '''
+    result = """
         {% extends "overrides/main.html" %}
         {% block content %}
         <section>
@@ -123,13 +156,14 @@ def writeHTML(lst):
             <div>
                 <div>
                     <h1>Specializations</h1>
-        '''
+        """
     if type(df) == pd.io.formats.style.Styler:
         result += df.render()
     else:
-        result += df.to_html(table_id=search_term,
-                                    escape=False, border=0, index=False)
-        result += '''
+        result += df.to_html(
+            table_id=search_term, escape=False, border=0, index=False
+        )
+        result += """
                 </div>
             </div>
         </div>
@@ -139,9 +173,10 @@ def writeHTML(lst):
         const table = new simpleDatatables.DataTable("#specializations")
         </script>
         {% endblock %}
-        '''
-    with open(HNAME, 'w') as f:
+        """
+    with open(HNAME, "w") as f:
         f.write(result)
+
 
 # Get api search item in chunks to avoid throttling
 objChunks = get_chunks(size=amount_per_chunk)
