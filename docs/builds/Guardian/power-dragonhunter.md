@@ -3,7 +3,7 @@ title: Power Dragonhunter
 slug: power-dragonhunter
 description: ""
 date: 2022-05-02T00:28:25.298Z
-lastmod: 2022-05-17T13:50:24.991Z
+lastmod: 2022-06-15T11:52:30.137Z
 tags:
   - guardian
   - dragonhunter
@@ -12,11 +12,47 @@ tags:
   - dps
   - stability
 icon: material/arm-flex
-infusion: 43254
+gear:
+  upgrades:
+    rune: 24836
+    infusion: 43254
+  head:
+    name: Dragon
+    affix: 1681
+  shoulders:
+    name: Dragon
+    affix: 1681
+  chest:
+    name: Dragon
+    affix: 1681
+  hands:
+    name: Dragon
+    affix: 1681
+  legs:
+    name: Dragon
+    affix: 1681
+  feet:
+    name: Dragon
+    affix: 1681
+  back:
+    name: Dragon
+    affix: 1681
+  accessory1:
+    name: Dragon
+    affix: 1681
+  accessory2:
+    name: Dragon
+    affix: 1681
+  ring1:
+    name: Dragon
+    affix: 1681
+  ring2:
+    name: Dragon
+    affix: 1681
+  amulet:
+    name: Dragon
+    affix: 1681
 ---
 
 
-{{ page.meta.title }}
-<div data-armory-embed="items" data-armory-inline-text="wiki" data-armory-ids="95605" data-armory-95605-stat="1681" data-armory-95605-upgrades="24836" data-armory-95605-upgrade-count={"24836":"6"} data-armory-95605-infusions="{{ page.meta.infusion }}"></div><div data-armory-embed="items" data-armory-inline-text="wiki" data-armory-ids="81462" data-armory-81462-stat="1681" data-armory-81462-infusions="{{ page.meta.infusion }}"></div>
-
-<script async src="https://unpkg.com/armory-embeds@^0.x.x/armory-embeds.js"></script> 
+Lorem ipsum 

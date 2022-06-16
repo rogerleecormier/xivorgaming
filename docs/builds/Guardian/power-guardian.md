@@ -3,7 +3,7 @@ title: Power Guardian
 slug: power-guardian
 description: ""
 date: 2022-05-02T04:23:58.669Z
-lastmod: 2022-05-17T14:52:44.764Z
+lastmod: 2022-06-15T12:06:01.466Z
 tags:
   - guardian
   - power
@@ -54,14 +54,12 @@ gear:
 ---
 
 
-# Power Guardian
+{{ page.meta.title }}
 The Power Dragonhunter provides an enormous amount of damage, both ranged and melee, with a moderate amount of support utility skills. Guardian's of any type are highly coveted in groups due to their easy access to the Stability boon.
+
 ## Build Links
 * GW2Skills:
 * Discretize: 
-
-## Build Code
-
 
 ## Gear
 === "Optimal Armor Stats"

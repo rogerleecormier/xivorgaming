@@ -1,6 +1,6 @@
 ---
 title: Power Reaper
-lastmod: 2022-05-17T13:50:32.296Z
+lastmod: 2022-06-15T12:06:26.152Z
 tags:
   - frontline
   - necromancer
@@ -32,12 +32,43 @@ gear:
   feet:
     name: Dragon
     affix: 1681
+  back:
+    name: Dragon
+    affix: 1681
+  accessory1:
+    name: Dragon
+    affix: 1681
+  accessory2:
+    name: Dragon
+    affix: 1681
+  ring1:
+    name: Dragon
+    affix: 1681
+  ring2:
+    name: Dragon
+    affix: 1681
+  amulet:
+    name: Dragon
+    affix: 1681
 ---
 
 {{ page.meta.title }}
 
-The gear for a {{ class }} class build using the {{ specialization }} specialization is:
+## Build Links
+* GW2Skills:
+* Discretize: 
 
-{% include "light_armor.md" %}
+## Gear
+The optimal gear for a {{ class }} class build using the {{ specialization }} specialization is gear using the Dragon affix.:
+=== "Optimal Armor Stats"
 
+{% include "heavy_armor_tab.md" %}
+	
+{% include "trinkets_tab.md" %}
 
+## Skills
+## Tactics
+## Media
+## Notes
+
+<script async src="https://unpkg.com/armory-embeds@^0.x.x/armory-embeds.js"></script> 

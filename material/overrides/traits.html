@@ -1,0 +1,5376 @@
+
+        {% extends "overrides/main.html" %}
+        {% block content %}
+        <section>
+        <div>
+            <div>
+                <div>
+                    <h1>Traits</h1>
+        <table border="0" class="dataframe" id="traits">
+  <thead>
+    <tr style="text-align: right;">
+      <th>API ID</th>
+      <th>Trait</th>
+      <th>Slot</th>
+      <th>Specialization</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>214</td>
+      <td>Raging Storm</td>
+      <td>Major</td>
+      <td>41</td>
+    </tr>
+    <tr>
+      <td>221</td>
+      <td>Zephyr's Speed</td>
+      <td>Minor</td>
+      <td>41</td>
+    </tr>
+    <tr>
+      <td>222</td>
+      <td>Electric Discharge</td>
+      <td>Minor</td>
+      <td>41</td>
+    </tr>
+    <tr>
+      <td>223</td>
+      <td>Aeromancer's Training</td>
+      <td>Minor</td>
+      <td>41</td>
+    </tr>
+    <tr>
+      <td>224</td>
+      <td>One with Air</td>
+      <td>Major</td>
+      <td>41</td>
+    </tr>
+    <tr>
+      <td>226</td>
+      <td>Bolt to the Heart</td>
+      <td>Major</td>
+      <td>41</td>
+    </tr>
+    <tr>
+      <td>227</td>
+      <td>Zephyr's Boon</td>
+      <td>Major</td>
+      <td>41</td>
+    </tr>
+    <tr>
+      <td>229</td>
+      <td>Inscription</td>
+      <td>Major</td>
+      <td>41</td>
+    </tr>
+    <tr>
+      <td>232</td>
+      <td>Ferocious Winds</td>
+      <td>Major</td>
+      <td>41</td>
+    </tr>
+    <tr>
+      <td>238</td>
+      <td>Evasive Arcana</td>
+      <td>Major</td>
+      <td>37</td>
+    </tr>
+    <tr>
+      <td>253</td>
+      <td>Arcane Precision</td>
+      <td>Major</td>
+      <td>37</td>
+    </tr>
+    <tr>
+      <td>257</td>
+      <td>Final Shielding</td>
+      <td>Major</td>
+      <td>37</td>
+    </tr>
+    <tr>
+      <td>263</td>
+      <td>Elemental Surge</td>
+      <td>Major</td>
+      <td>37</td>
+    </tr>
+    <tr>
+      <td>264</td>
+      <td>Elemental Attunement</td>
+      <td>Minor</td>
+      <td>37</td>
+    </tr>
+    <tr>
+      <td>265</td>
+      <td>Arcane Resurrection</td>
+      <td>Major</td>
+      <td>37</td>
+    </tr>
+    <tr>
+      <td>266</td>
+      <td>Renewing Stamina</td>
+      <td>Major</td>
+      <td>37</td>
+    </tr>
+    <tr>
+      <td>268</td>
+      <td>Arcane Prowess</td>
+      <td>Minor</td>
+      <td>37</td>
+    </tr>
+    <tr>
+      <td>275</td>
+      <td>Strength of Stone</td>
+      <td>Major</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <td>277</td>
+      <td>Earthen Blessing</td>
+      <td>Major</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <td>278</td>
+      <td>Stone Flesh</td>
+      <td>Minor</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <td>279</td>
+      <td>Earthen Blast</td>
+      <td>Minor</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <td>280</td>
+      <td>Geomancer's Training</td>
+      <td>Minor</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <td>281</td>
+      <td>Rock Solid</td>
+      <td>Major</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <td>282</td>
+      <td>Earth's Embrace</td>
+      <td>Major</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <td>287</td>
+      <td>Written in Stone</td>
+      <td>Major</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <td>289</td>
+      <td>Elemental Shielding</td>
+      <td>Major</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <td>294</td>
+      <td>Pyromancer's Puissance</td>
+      <td>Major</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <td>296</td>
+      <td>Burning Precision</td>
+      <td>Major</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <td>318</td>
+      <td>Sunspot</td>
+      <td>Minor</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <td>319</td>
+      <td>Pyromancer's Training</td>
+      <td>Minor</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <td>320</td>
+      <td>Empowering Flame</td>
+      <td>Minor</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <td>325</td>
+      <td>Burning Rage</td>
+      <td>Major</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <td>328</td>
+      <td>Conjurer</td>
+      <td>Major</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <td>334</td>
+      <td>Power Overwhelming</td>
+      <td>Major</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <td>335</td>
+      <td>Burning Fire</td>
+      <td>Major</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <td>340</td>
+      <td>Smothering Auras</td>
+      <td>Major</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <td>348</td>
+      <td>Soothing Ice</td>
+      <td>Major</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>349</td>
+      <td>Flow like Water</td>
+      <td>Major</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>350</td>
+      <td>Soothing Mist</td>
+      <td>Minor</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>351</td>
+      <td>Healing Ripple</td>
+      <td>Minor</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>358</td>
+      <td>Cleansing Wave</td>
+      <td>Major</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>360</td>
+      <td>Stop, Drop, and Roll</td>
+      <td>Major</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>361</td>
+      <td>Powerful Aura</td>
+      <td>Major</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>362</td>
+      <td>Cleansing Water</td>
+      <td>Major</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>363</td>
+      <td>Piercing Shards</td>
+      <td>Major</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>364</td>
+      <td>Soothing Disruption</td>
+      <td>Major</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>394</td>
+      <td>Over Shield</td>
+      <td>Major</td>
+      <td>47</td>
+    </tr>
+    <tr>
+      <td>396</td>
+      <td>Invigorating Speed</td>
+      <td>Major</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <td>413</td>
+      <td>Compounding Chemicals</td>
+      <td>Minor</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <td>429</td>
+      <td>Shaped Charge</td>
+      <td>Minor</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>432</td>
+      <td>Explosive Entrance</td>
+      <td>Minor</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>433</td>
+      <td>Incendiary Powder</td>
+      <td>Major</td>
+      <td>38</td>
+    </tr>
+    <tr>
+      <td>445</td>
+      <td>Mecha Legs</td>
+      <td>Major</td>
+      <td>47</td>
+    </tr>
+    <tr>
+      <td>468</td>
+      <td>Hidden Flask</td>
+      <td>Minor</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <td>469</td>
+      <td>Emergency Elixir</td>
+      <td>Major</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <td>470</td>
+      <td>Backpack Regenerator</td>
+      <td>Major</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <td>472</td>
+      <td>Anticorrosion Plating</td>
+      <td>Major</td>
+      <td>47</td>
+    </tr>
+    <tr>
+      <td>473</td>
+      <td>HGH</td>
+      <td>Major</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <td>482</td>
+      <td>Aim-Assisted Rocket</td>
+      <td>Major</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>487</td>
+      <td>Transmute</td>
+      <td>Minor</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <td>505</td>
+      <td>Shrapnel</td>
+      <td>Major</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>507</td>
+      <td>Autodefense Bomb Dispenser</td>
+      <td>Major</td>
+      <td>47</td>
+    </tr>
+    <tr>
+      <td>508</td>
+      <td>Reconstruction Enclosure</td>
+      <td>Minor</td>
+      <td>47</td>
+    </tr>
+    <tr>
+      <td>509</td>
+      <td>Protection Injection</td>
+      <td>Major</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <td>510</td>
+      <td>Juggernaut</td>
+      <td>Major</td>
+      <td>38</td>
+    </tr>
+    <tr>
+      <td>512</td>
+      <td>Streamlined Kits</td>
+      <td>Major</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>514</td>
+      <td>Grenadier</td>
+      <td>Major</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>515</td>
+      <td>Sharpshooter</td>
+      <td>Minor</td>
+      <td>38</td>
+    </tr>
+    <tr>
+      <td>516</td>
+      <td>Serrated Steel</td>
+      <td>Minor</td>
+      <td>38</td>
+    </tr>
+    <tr>
+      <td>517</td>
+      <td>Steel-Packed Powder</td>
+      <td>Minor</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>518</td>
+      <td>Cleansing Synergy</td>
+      <td>Minor</td>
+      <td>47</td>
+    </tr>
+    <tr>
+      <td>519</td>
+      <td>Energy Amplifier</td>
+      <td>Minor</td>
+      <td>47</td>
+    </tr>
+    <tr>
+      <td>520</td>
+      <td>Comeback Cure</td>
+      <td>Major</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <td>521</td>
+      <td>Health Insurance</td>
+      <td>Major</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <td>523</td>
+      <td>Adrenal Implant</td>
+      <td>Major</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>525</td>
+      <td>Short Fuse</td>
+      <td>Major</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>526</td>
+      <td>Modified Ammunition</td>
+      <td>Major</td>
+      <td>38</td>
+    </tr>
+    <tr>
+      <td>531</td>
+      <td>Power Wrench</td>
+      <td>Major</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>532</td>
+      <td>Static Discharge</td>
+      <td>Major</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>536</td>
+      <td>Hematic Focus</td>
+      <td>Minor</td>
+      <td>38</td>
+    </tr>
+    <tr>
+      <td>549</td>
+      <td>Pure of Heart</td>
+      <td>Major</td>
+      <td>49</td>
+    </tr>
+    <tr>
+      <td>551</td>
+      <td>Selfless Daring</td>
+      <td>Minor</td>
+      <td>49</td>
+    </tr>
+    <tr>
+      <td>553</td>
+      <td>Pure of Voice</td>
+      <td>Major</td>
+      <td>49</td>
+    </tr>
+    <tr>
+      <td>554</td>
+      <td>Battle Presence</td>
+      <td>Major</td>
+      <td>46</td>
+    </tr>
+    <tr>
+      <td>557</td>
+      <td>Honorable Staff</td>
+      <td>Major</td>
+      <td>49</td>
+    </tr>
+    <tr>
+      <td>558</td>
+      <td>Writ of Persistence</td>
+      <td>Major</td>
+      <td>49</td>
+    </tr>
+    <tr>
+      <td>559</td>
+      <td>Protective Reviver</td>
+      <td>Major</td>
+      <td>49</td>
+    </tr>
+    <tr>
+      <td>562</td>
+      <td>Empowering Might</td>
+      <td>Major</td>
+      <td>49</td>
+    </tr>
+    <tr>
+      <td>563</td>
+      <td>Wrathful Spirit</td>
+      <td>Major</td>
+      <td>42</td>
+    </tr>
+    <tr>
+      <td>564</td>
+      <td>Vigorous Precision</td>
+      <td>Minor</td>
+      <td>49</td>
+    </tr>
+    <tr>
+      <td>565</td>
+      <td>Retribution</td>
+      <td>Major</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>566</td>
+      <td>Right-Hand Strength</td>
+      <td>Major</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>567</td>
+      <td>Radiant Fire</td>
+      <td>Major</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>568</td>
+      <td>Radiant Power</td>
+      <td>Minor</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>571</td>
+      <td>Renewed Justice</td>
+      <td>Minor</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>572</td>
+      <td>Justice is Blind</td>
+      <td>Minor</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>574</td>
+      <td>Healer's Resolution</td>
+      <td>Major</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>577</td>
+      <td>Inner Fire</td>
+      <td>Major</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>578</td>
+      <td>Wrath of Justice</td>
+      <td>Major</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>579</td>
+      <td>Perfect Inscriptions</td>
+      <td>Major</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>580</td>
+      <td>Stalwart Defender</td>
+      <td>Major</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>581</td>
+      <td>Smiter's Boon</td>
+      <td>Major</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>582</td>
+      <td>Valorous Defense</td>
+      <td>Minor</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>583</td>
+      <td>Might of the Protector</td>
+      <td>Minor</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>584</td>
+      <td>Strength in Numbers</td>
+      <td>Major</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>585</td>
+      <td>Altruistic Healing</td>
+      <td>Major</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>586</td>
+      <td>Monk's Focus</td>
+      <td>Major</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>587</td>
+      <td>Glacial Heart</td>
+      <td>Major</td>
+      <td>46</td>
+    </tr>
+    <tr>
+      <td>588</td>
+      <td>Strength of the Fallen</td>
+      <td>Major</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>589</td>
+      <td>Tenacious Defense</td>
+      <td>Major</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>594</td>
+      <td>Steadfast Courage</td>
+      <td>Minor</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>603</td>
+      <td>Inspiring Virtue</td>
+      <td>Major</td>
+      <td>46</td>
+    </tr>
+    <tr>
+      <td>604</td>
+      <td>Virtue of Resolution</td>
+      <td>Minor</td>
+      <td>46</td>
+    </tr>
+    <tr>
+      <td>610</td>
+      <td>Absolute Resolve</td>
+      <td>Major</td>
+      <td>46</td>
+    </tr>
+    <tr>
+      <td>612</td>
+      <td>Indomitable Courage</td>
+      <td>Major</td>
+      <td>46</td>
+    </tr>
+    <tr>
+      <td>617</td>
+      <td>Master of Consecrations</td>
+      <td>Major</td>
+      <td>46</td>
+    </tr>
+    <tr>
+      <td>620</td>
+      <td>Power of the Virtuous</td>
+      <td>Minor</td>
+      <td>46</td>
+    </tr>
+    <tr>
+      <td>621</td>
+      <td>Inspired Virtue</td>
+      <td>Minor</td>
+      <td>46</td>
+    </tr>
+    <tr>
+      <td>622</td>
+      <td>Permeating Wrath</td>
+      <td>Major</td>
+      <td>46</td>
+    </tr>
+    <tr>
+      <td>624</td>
+      <td>Unscathed Contender</td>
+      <td>Major</td>
+      <td>46</td>
+    </tr>
+    <tr>
+      <td>625</td>
+      <td>Resolute Subconscious</td>
+      <td>Major</td>
+      <td>46</td>
+    </tr>
+    <tr>
+      <td>628</td>
+      <td>Furious Focus</td>
+      <td>Major</td>
+      <td>42</td>
+    </tr>
+    <tr>
+      <td>633</td>
+      <td>Focus Mastery</td>
+      <td>Major</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>634</td>
+      <td>Fiery Wrath</td>
+      <td>Major</td>
+      <td>42</td>
+    </tr>
+    <tr>
+      <td>635</td>
+      <td>Eternal Armory</td>
+      <td>Major</td>
+      <td>42</td>
+    </tr>
+    <tr>
+      <td>637</td>
+      <td>Shattered Aegis</td>
+      <td>Major</td>
+      <td>42</td>
+    </tr>
+    <tr>
+      <td>646</td>
+      <td>Symbolic Exposure</td>
+      <td>Minor</td>
+      <td>42</td>
+    </tr>
+    <tr>
+      <td>648</td>
+      <td>Zealot's Resolution</td>
+      <td>Minor</td>
+      <td>42</td>
+    </tr>
+    <tr>
+      <td>649</td>
+      <td>Symbolic Power</td>
+      <td>Minor</td>
+      <td>42</td>
+    </tr>
+    <tr>
+      <td>653</td>
+      <td>Zealous Blade</td>
+      <td>Major</td>
+      <td>42</td>
+    </tr>
+    <tr>
+      <td>654</td>
+      <td>Protector's Restoration</td>
+      <td>Major</td>
+      <td>49</td>
+    </tr>
+    <tr>
+      <td>666</td>
+      <td>Metaphysical Rejuvenation</td>
+      <td>Minor</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <td>667</td>
+      <td>Illusionary Membrane</td>
+      <td>Minor</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <td>668</td>
+      <td>Chaotic Transference</td>
+      <td>Major</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <td>669</td>
+      <td>Chaotic Potency</td>
+      <td>Major</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <td>670</td>
+      <td>Method of Madness</td>
+      <td>Major</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <td>671</td>
+      <td>Chaotic Interruption</td>
+      <td>Major</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <td>673</td>
+      <td>Auspicious Anguish</td>
+      <td>Major</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <td>674</td>
+      <td>Prismatic Understanding</td>
+      <td>Major</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <td>675</td>
+      <td>Illusionary Defense</td>
+      <td>Major</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <td>677</td>
+      <td>Master of Manipulation</td>
+      <td>Major</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <td>680</td>
+      <td>Mental Anguish</td>
+      <td>Major</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>681</td>
+      <td>Vicious Expression</td>
+      <td>Major</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>682</td>
+      <td>Empowered Illusions</td>
+      <td>Major</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>685</td>
+      <td>Illusion of Vulnerability</td>
+      <td>Minor</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>686</td>
+      <td>Bountiful Blades</td>
+      <td>Major</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>687</td>
+      <td>Rending Shatter</td>
+      <td>Major</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>691</td>
+      <td>The Pledge</td>
+      <td>Major</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>692</td>
+      <td>Superiority Complex</td>
+      <td>Major</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>693</td>
+      <td>Shattered Concentration</td>
+      <td>Major</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>694</td>
+      <td>Dazzling</td>
+      <td>Minor</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>700</td>
+      <td>Duelist's Discipline</td>
+      <td>Major</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>701</td>
+      <td>Phantasmal Fury</td>
+      <td>Major</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>704</td>
+      <td>Deceptive Evasion</td>
+      <td>Major</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>705</td>
+      <td>Desperate Decoy</td>
+      <td>Major</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>706</td>
+      <td>Critical Infusion</td>
+      <td>Minor</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>707</td>
+      <td>Master Fencer</td>
+      <td>Minor</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>708</td>
+      <td>Fencer's Finesse</td>
+      <td>Major</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>710</td>
+      <td>Sharper Images</td>
+      <td>Minor</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>712</td>
+      <td>Furious Interruption</td>
+      <td>Major</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>713</td>
+      <td>Egotism</td>
+      <td>Major</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>721</td>
+      <td>Shatter Storm</td>
+      <td>Major</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>722</td>
+      <td>Escape Artist</td>
+      <td>Major</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>723</td>
+      <td>Compounding Power</td>
+      <td>Minor</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>729</td>
+      <td>Phantasmal Haste</td>
+      <td>Major</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>731</td>
+      <td>Master of Misdirection</td>
+      <td>Minor</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>733</td>
+      <td>Phantasmal Force</td>
+      <td>Major</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>734</td>
+      <td>Cry of Pain</td>
+      <td>Minor</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>738</td>
+      <td>Restorative Mantras</td>
+      <td>Major</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>740</td>
+      <td>Restorative Illusions</td>
+      <td>Major</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>744</td>
+      <td>Sympathetic Visage</td>
+      <td>Major</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>751</td>
+      <td>Warden's Feedback</td>
+      <td>Major</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>752</td>
+      <td>Blurred Inscriptions</td>
+      <td>Major</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>753</td>
+      <td>Malicious Sorcery</td>
+      <td>Major</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>756</td>
+      <td>Medic's Feedback</td>
+      <td>Major</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>757</td>
+      <td>Mender's Purity</td>
+      <td>Minor</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>778</td>
+      <td>Transfusion</td>
+      <td>Major</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>780</td>
+      <td>Ritual of Life</td>
+      <td>Major</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>782</td>
+      <td>Blood Bank</td>
+      <td>Major</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>783</td>
+      <td>Vampiric</td>
+      <td>Minor</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>788</td>
+      <td>Quickening Thirst</td>
+      <td>Major</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>789</td>
+      <td>Life from Death</td>
+      <td>Major</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>792</td>
+      <td>Mark of Evasion</td>
+      <td>Minor</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>799</td>
+      <td>Banshee's Wail</td>
+      <td>Major</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>801</td>
+      <td>Lingering Curse</td>
+      <td>Major</td>
+      <td>39</td>
+    </tr>
+    <tr>
+      <td>802</td>
+      <td>Barbed Precision</td>
+      <td>Minor</td>
+      <td>39</td>
+    </tr>
+    <tr>
+      <td>803</td>
+      <td>Furious Demise</td>
+      <td>Minor</td>
+      <td>39</td>
+    </tr>
+    <tr>
+      <td>810</td>
+      <td>Target the Weak</td>
+      <td>Minor</td>
+      <td>39</td>
+    </tr>
+    <tr>
+      <td>812</td>
+      <td>Terror</td>
+      <td>Major</td>
+      <td>39</td>
+    </tr>
+    <tr>
+      <td>813</td>
+      <td>Weakening Shroud</td>
+      <td>Major</td>
+      <td>39</td>
+    </tr>
+    <tr>
+      <td>815</td>
+      <td>Chilling Darkness</td>
+      <td>Major</td>
+      <td>39</td>
+    </tr>
+    <tr>
+      <td>816</td>
+      <td>Master of Corruption</td>
+      <td>Major</td>
+      <td>39</td>
+    </tr>
+    <tr>
+      <td>820</td>
+      <td>Flesh of the Master</td>
+      <td>Major</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>829</td>
+      <td>Awaken the Pain</td>
+      <td>Major</td>
+      <td>53</td>
+    </tr>
+    <tr>
+      <td>839</td>
+      <td>Soul Comprehension</td>
+      <td>Minor</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>842</td>
+      <td>Death Nova</td>
+      <td>Major</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>853</td>
+      <td>Close to Death</td>
+      <td>Major</td>
+      <td>53</td>
+    </tr>
+    <tr>
+      <td>855</td>
+      <td>Deadly Strength</td>
+      <td>Major</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>856</td>
+      <td>Armored Shroud</td>
+      <td>Minor</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>857</td>
+      <td>Putrid Defense</td>
+      <td>Major</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>858</td>
+      <td>Necromantic Corruption</td>
+      <td>Major</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>860</td>
+      <td>Dark Defiance</td>
+      <td>Major</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>861</td>
+      <td>Vital Persistence</td>
+      <td>Major</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>874</td>
+      <td>Soul Battery</td>
+      <td>Minor</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>875</td>
+      <td>Unyielding Blast</td>
+      <td>Major</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>887</td>
+      <td>Gluttony</td>
+      <td>Minor</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>888</td>
+      <td>Speed of Shadows</td>
+      <td>Major</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>889</td>
+      <td>Eternal Life</td>
+      <td>Major</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>891</td>
+      <td>Sinister Shroud</td>
+      <td>Minor</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>892</td>
+      <td>Fear of Death</td>
+      <td>Major</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>893</td>
+      <td>Death Perception</td>
+      <td>Major</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>894</td>
+      <td>Soul Barbs</td>
+      <td>Major</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>898</td>
+      <td>Soul Marks</td>
+      <td>Major</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>899</td>
+      <td>Chill of Death</td>
+      <td>Major</td>
+      <td>53</td>
+    </tr>
+    <tr>
+      <td>903</td>
+      <td>Spiteful Spirit</td>
+      <td>Major</td>
+      <td>53</td>
+    </tr>
+    <tr>
+      <td>905</td>
+      <td>Dhuumfire</td>
+      <td>Major</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>909</td>
+      <td>Signets of Suffering</td>
+      <td>Major</td>
+      <td>53</td>
+    </tr>
+    <tr>
+      <td>913</td>
+      <td>Reaper's Might</td>
+      <td>Minor</td>
+      <td>53</td>
+    </tr>
+    <tr>
+      <td>914</td>
+      <td>Spiteful Talisman</td>
+      <td>Major</td>
+      <td>53</td>
+    </tr>
+    <tr>
+      <td>915</td>
+      <td>Death's Embrace</td>
+      <td>Minor</td>
+      <td>53</td>
+    </tr>
+    <tr>
+      <td>916</td>
+      <td>Spiteful Renewal</td>
+      <td>Major</td>
+      <td>53</td>
+    </tr>
+    <tr>
+      <td>917</td>
+      <td>Siphoned Power</td>
+      <td>Minor</td>
+      <td>53</td>
+    </tr>
+    <tr>
+      <td>919</td>
+      <td>Dread</td>
+      <td>Major</td>
+      <td>53</td>
+    </tr>
+    <tr>
+      <td>964</td>
+      <td>Windborne Notes</td>
+      <td>Major</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>965</td>
+      <td>Spirited Arrival</td>
+      <td>Major</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>968</td>
+      <td>Zephyr's Speed</td>
+      <td>Major</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <td>970</td>
+      <td>Natural Healing</td>
+      <td>Major</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <td>974</td>
+      <td>Loud Whistle</td>
+      <td>Minor</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <td>975</td>
+      <td>Wilting Strike</td>
+      <td>Major</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <td>978</td>
+      <td>Instinctive Reaction</td>
+      <td>Major</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>986</td>
+      <td>Clarion Bond</td>
+      <td>Major</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>996</td>
+      <td>Predator's Onslaught</td>
+      <td>Major</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>1000</td>
+      <td>Farsighted</td>
+      <td>Major</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>1001</td>
+      <td>Brutish Seals</td>
+      <td>Major</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>1009</td>
+      <td>Alpha Focus</td>
+      <td>Minor</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>1010</td>
+      <td>Opening Strike</td>
+      <td>Minor</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>1011</td>
+      <td>Precise Strike</td>
+      <td>Minor</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>1014</td>
+      <td>Hunter's Gaze</td>
+      <td>Major</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>1015</td>
+      <td>Remorseless</td>
+      <td>Major</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>1016</td>
+      <td>Spotter</td>
+      <td>Major</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>1021</td>
+      <td>Stoneform</td>
+      <td>Major</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>1038</td>
+      <td>Nature's Vengeance</td>
+      <td>Major</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>1047</td>
+      <td>Two-Handed Training</td>
+      <td>Major</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <td>1054</td>
+      <td>Evasive Purity</td>
+      <td>Major</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>1055</td>
+      <td>Rejuvenation</td>
+      <td>Minor</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>1056</td>
+      <td>Fortifying Bond</td>
+      <td>Minor</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>1059</td>
+      <td>Lingering Magic</td>
+      <td>Minor</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>1060</td>
+      <td>Allies' Aid</td>
+      <td>Major</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>1062</td>
+      <td>Bountiful Hunter</td>
+      <td>Major</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>1064</td>
+      <td>Quick Draw</td>
+      <td>Major</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>1065</td>
+      <td>Pet's Prowess</td>
+      <td>Minor</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <td>1066</td>
+      <td>Honed Axes</td>
+      <td>Major</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <td>1067</td>
+      <td>Primal Reflexes</td>
+      <td>Major</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>1068</td>
+      <td>Hunter's Tactics</td>
+      <td>Minor</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>1069</td>
+      <td>Sharpened Edges</td>
+      <td>Major</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>1070</td>
+      <td>Moment of Clarity</td>
+      <td>Major</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>1072</td>
+      <td>Potent Ally</td>
+      <td>Major</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <td>1075</td>
+      <td>Trapper's Expertise</td>
+      <td>Major</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>1080</td>
+      <td>Tail Wind</td>
+      <td>Minor</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>1083</td>
+      <td>Furious Grip</td>
+      <td>Minor</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>1086</td>
+      <td>Oakheart Salve</td>
+      <td>Major</td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <td>1089</td>
+      <td>Rugged Growth</td>
+      <td>Minor</td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <td>1090</td>
+      <td>Companion's Defense</td>
+      <td>Minor</td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <td>1094</td>
+      <td>Empathic Bond</td>
+      <td>Major</td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <td>1096</td>
+      <td>Natural Vigor</td>
+      <td>Minor</td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <td>1098</td>
+      <td>Child of Earth</td>
+      <td>Major</td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <td>1099</td>
+      <td>Taste for Danger</td>
+      <td>Major</td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <td>1100</td>
+      <td>Shared Anguish</td>
+      <td>Major</td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <td>1101</td>
+      <td>Ambidexterity</td>
+      <td>Major</td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <td>1112</td>
+      <td>Instant Reflexes</td>
+      <td>Major</td>
+      <td>54</td>
+    </tr>
+    <tr>
+      <td>1130</td>
+      <td>Leeching Venoms</td>
+      <td>Major</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>1134</td>
+      <td>Cloaked in Shadow</td>
+      <td>Major</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>1135</td>
+      <td>Shadow's Rejuvenation</td>
+      <td>Major</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>1136</td>
+      <td>Meld with Shadows</td>
+      <td>Minor</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>1137</td>
+      <td>Kleptomaniac</td>
+      <td>Minor</td>
+      <td>44</td>
+    </tr>
+    <tr>
+      <td>1157</td>
+      <td>Lead Attacks</td>
+      <td>Minor</td>
+      <td>44</td>
+    </tr>
+    <tr>
+      <td>1158</td>
+      <td>Sleight of Hand</td>
+      <td>Major</td>
+      <td>44</td>
+    </tr>
+    <tr>
+      <td>1159</td>
+      <td>Uncatchable</td>
+      <td>Major</td>
+      <td>44</td>
+    </tr>
+    <tr>
+      <td>1160</td>
+      <td>Merciful Ambush</td>
+      <td>Major</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>1162</td>
+      <td>Rending Shade</td>
+      <td>Major</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>1163</td>
+      <td>Thrill of the Crime</td>
+      <td>Major</td>
+      <td>44</td>
+    </tr>
+    <tr>
+      <td>1164</td>
+      <td>Deadly Ambition</td>
+      <td>Major</td>
+      <td>28</td>
+    </tr>
+    <tr>
+      <td>1167</td>
+      <td>Improvisation</td>
+      <td>Major</td>
+      <td>28</td>
+    </tr>
+    <tr>
+      <td>1169</td>
+      <td>Even the Odds</td>
+      <td>Major</td>
+      <td>28</td>
+    </tr>
+    <tr>
+      <td>1170</td>
+      <td>Sundering Shade</td>
+      <td>Major</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <td>1187</td>
+      <td>Quick Pockets</td>
+      <td>Major</td>
+      <td>44</td>
+    </tr>
+    <tr>
+      <td>1190</td>
+      <td>Pressure Striking</td>
+      <td>Major</td>
+      <td>44</td>
+    </tr>
+    <tr>
+      <td>1192</td>
+      <td>Swindler's Equilibrium</td>
+      <td>Major</td>
+      <td>54</td>
+    </tr>
+    <tr>
+      <td>1209</td>
+      <td>Assassin's Fury</td>
+      <td>Major</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <td>1210</td>
+      <td>Unrelenting Strikes</td>
+      <td>Minor</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <td>1215</td>
+      <td>Hidden Killer</td>
+      <td>Major</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <td>1232</td>
+      <td>Preparedness</td>
+      <td>Minor</td>
+      <td>44</td>
+    </tr>
+    <tr>
+      <td>1234</td>
+      <td>Feline Grace</td>
+      <td>Minor</td>
+      <td>54</td>
+    </tr>
+    <tr>
+      <td>1237</td>
+      <td>Pain Response</td>
+      <td>Major</td>
+      <td>54</td>
+    </tr>
+    <tr>
+      <td>1238</td>
+      <td>Assassin's Reward</td>
+      <td>Major</td>
+      <td>54</td>
+    </tr>
+    <tr>
+      <td>1240</td>
+      <td>Expeditious Dodger</td>
+      <td>Minor</td>
+      <td>54</td>
+    </tr>
+    <tr>
+      <td>1241</td>
+      <td>Guarded Initiation</td>
+      <td>Major</td>
+      <td>54</td>
+    </tr>
+    <tr>
+      <td>1242</td>
+      <td>Endless Stamina</td>
+      <td>Minor</td>
+      <td>54</td>
+    </tr>
+    <tr>
+      <td>1245</td>
+      <td>Dagger Training</td>
+      <td>Major</td>
+      <td>28</td>
+    </tr>
+    <tr>
+      <td>1252</td>
+      <td>Burst of Agility</td>
+      <td>Major</td>
+      <td>44</td>
+    </tr>
+    <tr>
+      <td>1257</td>
+      <td>Exposed Weakness</td>
+      <td>Minor</td>
+      <td>28</td>
+    </tr>
+    <tr>
+      <td>1267</td>
+      <td>Signets of Power</td>
+      <td>Major</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <td>1268</td>
+      <td>Twin Fangs</td>
+      <td>Major</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <td>1269</td>
+      <td>Executioner</td>
+      <td>Major</td>
+      <td>28</td>
+    </tr>
+    <tr>
+      <td>1272</td>
+      <td>Practiced Tolerance</td>
+      <td>Major</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <td>1276</td>
+      <td>Mug</td>
+      <td>Major</td>
+      <td>28</td>
+    </tr>
+    <tr>
+      <td>1277</td>
+      <td>Bountiful Theft</td>
+      <td>Major</td>
+      <td>44</td>
+    </tr>
+    <tr>
+      <td>1279</td>
+      <td>Serpent's Touch</td>
+      <td>Minor</td>
+      <td>28</td>
+    </tr>
+    <tr>
+      <td>1280</td>
+      <td>Lotus Poison</td>
+      <td>Minor</td>
+      <td>28</td>
+    </tr>
+    <tr>
+      <td>1281</td>
+      <td>Keen Observer</td>
+      <td>Minor</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <td>1282</td>
+      <td>Ferocious Strikes</td>
+      <td>Minor</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <td>1284</td>
+      <td>Hidden Thief</td>
+      <td>Major</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>1286</td>
+      <td>Trickster</td>
+      <td>Major</td>
+      <td>44</td>
+    </tr>
+    <tr>
+      <td>1289</td>
+      <td>Vigorous Recovery</td>
+      <td>Major</td>
+      <td>54</td>
+    </tr>
+    <tr>
+      <td>1290</td>
+      <td>Hard to Catch</td>
+      <td>Major</td>
+      <td>54</td>
+    </tr>
+    <tr>
+      <td>1291</td>
+      <td>Potent Poison</td>
+      <td>Major</td>
+      <td>28</td>
+    </tr>
+    <tr>
+      <td>1292</td>
+      <td>Panic Strike</td>
+      <td>Major</td>
+      <td>28</td>
+    </tr>
+    <tr>
+      <td>1293</td>
+      <td>Shadow's Embrace</td>
+      <td>Major</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>1294</td>
+      <td>Concealing Restoration</td>
+      <td>Minor</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>1295</td>
+      <td>Upper Hand</td>
+      <td>Major</td>
+      <td>54</td>
+    </tr>
+    <tr>
+      <td>1297</td>
+      <td>Shadow Savior</td>
+      <td>Major</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>1299</td>
+      <td>Deadly Aim</td>
+      <td>Major</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <td>1300</td>
+      <td>Flickering Shadows</td>
+      <td>Major</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>1315</td>
+      <td>Unsuspecting Foe</td>
+      <td>Major</td>
+      <td>36</td>
+    </tr>
+    <tr>
+      <td>1316</td>
+      <td>Sundering Burst</td>
+      <td>Major</td>
+      <td>36</td>
+    </tr>
+    <tr>
+      <td>1317</td>
+      <td>Heightened Focus</td>
+      <td>Major</td>
+      <td>51</td>
+    </tr>
+    <tr>
+      <td>1329</td>
+      <td>Crack Shot</td>
+      <td>Major</td>
+      <td>51</td>
+    </tr>
+    <tr>
+      <td>1333</td>
+      <td>Blademaster</td>
+      <td>Major</td>
+      <td>36</td>
+    </tr>
+    <tr>
+      <td>1334</td>
+      <td>Opportunist</td>
+      <td>Major</td>
+      <td>36</td>
+    </tr>
+    <tr>
+      <td>1336</td>
+      <td>Burst Precision</td>
+      <td>Major</td>
+      <td>36</td>
+    </tr>
+    <tr>
+      <td>1337</td>
+      <td>Bloodlust</td>
+      <td>Minor</td>
+      <td>36</td>
+    </tr>
+    <tr>
+      <td>1338</td>
+      <td>Forceful Greatsword</td>
+      <td>Major</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>1342</td>
+      <td>Furious Burst</td>
+      <td>Minor</td>
+      <td>36</td>
+    </tr>
+    <tr>
+      <td>1343</td>
+      <td>Deep Strikes</td>
+      <td>Minor</td>
+      <td>36</td>
+    </tr>
+    <tr>
+      <td>1344</td>
+      <td>Signet Mastery</td>
+      <td>Major</td>
+      <td>36</td>
+    </tr>
+    <tr>
+      <td>1346</td>
+      <td>Furious</td>
+      <td>Major</td>
+      <td>36</td>
+    </tr>
+    <tr>
+      <td>1348</td>
+      <td>Adrenal Health</td>
+      <td>Minor</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>1350</td>
+      <td>Thick Skin</td>
+      <td>Minor</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>1367</td>
+      <td>Sundering Mace</td>
+      <td>Major</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>1368</td>
+      <td>Defy Pain</td>
+      <td>Major</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>1369</td>
+      <td>Axe Mastery</td>
+      <td>Major</td>
+      <td>51</td>
+    </tr>
+    <tr>
+      <td>1372</td>
+      <td>Cull the Weak</td>
+      <td>Major</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>1375</td>
+      <td>Last Stand</td>
+      <td>Major</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>1376</td>
+      <td>Shield Master</td>
+      <td>Major</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>1379</td>
+      <td>Armored Attack</td>
+      <td>Major</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>1380</td>
+      <td>Hardened Armor</td>
+      <td>Minor</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>1381</td>
+      <td>Vengeful Return</td>
+      <td>Major</td>
+      <td>51</td>
+    </tr>
+    <tr>
+      <td>1413</td>
+      <td>Warrior's Sprint</td>
+      <td>Major</td>
+      <td>51</td>
+    </tr>
+    <tr>
+      <td>1415</td>
+      <td>Versatile Rage</td>
+      <td>Minor</td>
+      <td>51</td>
+    </tr>
+    <tr>
+      <td>1416</td>
+      <td>Fast Hands</td>
+      <td>Minor</td>
+      <td>51</td>
+    </tr>
+    <tr>
+      <td>1417</td>
+      <td>Versatile Power</td>
+      <td>Minor</td>
+      <td>51</td>
+    </tr>
+    <tr>
+      <td>1437</td>
+      <td>Berserker's Power</td>
+      <td>Major</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>1440</td>
+      <td>Merciless Hammer</td>
+      <td>Major</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>1444</td>
+      <td>Peak Performance</td>
+      <td>Major</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>1446</td>
+      <td>Reckless Dodge</td>
+      <td>Minor</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>1447</td>
+      <td>Brave Stride</td>
+      <td>Major</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>1448</td>
+      <td>Building Momentum</td>
+      <td>Minor</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>1449</td>
+      <td>Great Fortitude</td>
+      <td>Major</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>1451</td>
+      <td>Restorative Strength</td>
+      <td>Major</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>1453</td>
+      <td>Pinnacle of Strength</td>
+      <td>Minor</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>1454</td>
+      <td>Might Makes Right</td>
+      <td>Major</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>1455</td>
+      <td>Wounding Precision</td>
+      <td>Major</td>
+      <td>36</td>
+    </tr>
+    <tr>
+      <td>1469</td>
+      <td>Leg Specialist</td>
+      <td>Major</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>1470</td>
+      <td>Vigorous Shouts</td>
+      <td>Major</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>1471</td>
+      <td>Roaring Reveille</td>
+      <td>Major</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>1474</td>
+      <td>Soldier's Comfort</td>
+      <td>Major</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>1479</td>
+      <td>Shrug It Off</td>
+      <td>Major</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>1480</td>
+      <td>Marching Orders</td>
+      <td>Minor</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>1481</td>
+      <td>Mending Might</td>
+      <td>Minor</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>1482</td>
+      <td>Empower Allies</td>
+      <td>Major</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>1484</td>
+      <td>Doubled Standards</td>
+      <td>Major</td>
+      <td>51</td>
+    </tr>
+    <tr>
+      <td>1485</td>
+      <td>Empowered</td>
+      <td>Minor</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>1486</td>
+      <td>Warrior's Cunning</td>
+      <td>Major</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>1487</td>
+      <td>Arcane Restoration</td>
+      <td>Major</td>
+      <td>37</td>
+    </tr>
+    <tr>
+      <td>1488</td>
+      <td>Dogged March</td>
+      <td>Major</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>1489</td>
+      <td>Destruction of the Empowered</td>
+      <td>Major</td>
+      <td>51</td>
+    </tr>
+    <tr>
+      <td>1502</td>
+      <td>Stormsoul</td>
+      <td>Major</td>
+      <td>41</td>
+    </tr>
+    <tr>
+      <td>1503</td>
+      <td>Fresh Air</td>
+      <td>Major</td>
+      <td>41</td>
+    </tr>
+    <tr>
+      <td>1507</td>
+      <td>Serrated Stones</td>
+      <td>Major</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <td>1508</td>
+      <td>Diamond Skin</td>
+      <td>Major</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <td>1510</td>
+      <td>Persisting Flames</td>
+      <td>Major</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <td>1511</td>
+      <td>Bountiful Power</td>
+      <td>Major</td>
+      <td>37</td>
+    </tr>
+    <tr>
+      <td>1541</td>
+      <td>Flashbang</td>
+      <td>Major</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>1556</td>
+      <td>Kindled Zeal</td>
+      <td>Major</td>
+      <td>42</td>
+    </tr>
+    <tr>
+      <td>1606</td>
+      <td>Resounding Timbre</td>
+      <td>Major</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <td>1649</td>
+      <td>Cleansing Ire</td>
+      <td>Major</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>1657</td>
+      <td>Burst Mastery</td>
+      <td>Major</td>
+      <td>51</td>
+    </tr>
+    <tr>
+      <td>1667</td>
+      <td>Martial Cadence</td>
+      <td>Major</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>1672</td>
+      <td>Lightning Rod</td>
+      <td>Major</td>
+      <td>41</td>
+    </tr>
+    <tr>
+      <td>1673</td>
+      <td>Elemental Lockdown</td>
+      <td>Major</td>
+      <td>37</td>
+    </tr>
+    <tr>
+      <td>1674</td>
+      <td>Stone Heart</td>
+      <td>Major</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <td>1675</td>
+      <td>Blinding Ashes</td>
+      <td>Major</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <td>1676</td>
+      <td>Aquamancer's Training</td>
+      <td>Minor</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>1678</td>
+      <td>Experimental Turrets</td>
+      <td>Major</td>
+      <td>47</td>
+    </tr>
+    <tr>
+      <td>1679</td>
+      <td>Gadgeteer</td>
+      <td>Major</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>1680</td>
+      <td>Bunker Down</td>
+      <td>Major</td>
+      <td>47</td>
+    </tr>
+    <tr>
+      <td>1682</td>
+      <td>Force of Will</td>
+      <td>Major</td>
+      <td>49</td>
+    </tr>
+    <tr>
+      <td>1683</td>
+      <td>Righteous Instincts</td>
+      <td>Major</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>1684</td>
+      <td>Communal Defenses</td>
+      <td>Major</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>1685</td>
+      <td>Purity of Body</td>
+      <td>Minor</td>
+      <td>49</td>
+    </tr>
+    <tr>
+      <td>1686</td>
+      <td>Amplified Wrath</td>
+      <td>Major</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>1687</td>
+      <td>Bountiful Disillusionment</td>
+      <td>Major</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <td>1688</td>
+      <td>Power Block</td>
+      <td>Major</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>1690</td>
+      <td>Maim the Disillusioned</td>
+      <td>Major</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>1692</td>
+      <td>Unholy Martyr</td>
+      <td>Major</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>1693</td>
+      <td>Path of Corruption</td>
+      <td>Major</td>
+      <td>39</td>
+    </tr>
+    <tr>
+      <td>1694</td>
+      <td>Unholy Sanctuary</td>
+      <td>Major</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>1696</td>
+      <td>Parasitic Contagion</td>
+      <td>Major</td>
+      <td>39</td>
+    </tr>
+    <tr>
+      <td>1697</td>
+      <td>Invigorating Bond</td>
+      <td>Major</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>1699</td>
+      <td>Wilderness Knowledge</td>
+      <td>Major</td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <td>1700</td>
+      <td>Strider's Defense</td>
+      <td>Major</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>1701</td>
+      <td>Poison Master</td>
+      <td>Major</td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <td>1702</td>
+      <td>Invigorating Precision</td>
+      <td>Major</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <td>1703</td>
+      <td>Don't Stop</td>
+      <td>Major</td>
+      <td>54</td>
+    </tr>
+    <tr>
+      <td>1704</td>
+      <td>Revealed Training</td>
+      <td>Major</td>
+      <td>28</td>
+    </tr>
+    <tr>
+      <td>1705</td>
+      <td>Shadow Siphoning</td>
+      <td>Minor</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>1706</td>
+      <td>Deadly Ambush</td>
+      <td>Major</td>
+      <td>44</td>
+    </tr>
+    <tr>
+      <td>1707</td>
+      <td>Dual Wielding</td>
+      <td>Major</td>
+      <td>36</td>
+    </tr>
+    <tr>
+      <td>1708</td>
+      <td>Rousing Resilience</td>
+      <td>Major</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>1709</td>
+      <td>Brawler's Recovery</td>
+      <td>Major</td>
+      <td>51</td>
+    </tr>
+    <tr>
+      <td>1711</td>
+      <td>Phalanx Strength</td>
+      <td>Major</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>1713</td>
+      <td>Determined Resolution</td>
+      <td>Minor</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>1714</td>
+      <td>Pact of Pain</td>
+      <td>Major</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td>1715</td>
+      <td>Brutality</td>
+      <td>Major</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>1716</td>
+      <td>Rising Momentum</td>
+      <td>Major</td>
+      <td>52</td>
+    </tr>
+    <tr>
+      <td>1719</td>
+      <td>Roiling Mists</td>
+      <td>Major</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>1720</td>
+      <td>Fiendish Tenacity</td>
+      <td>Major</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td>1721</td>
+      <td>Permeating Pestilence</td>
+      <td>Major</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td>1724</td>
+      <td>Destructive Impulses</td>
+      <td>Minor</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>1726</td>
+      <td>Demonic Resistance</td>
+      <td>Major</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td>1727</td>
+      <td>Abyssal Chill</td>
+      <td>Major</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td>1728</td>
+      <td>Close Quarters</td>
+      <td>Major</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>1730</td>
+      <td>Hardening Persistence</td>
+      <td>Major</td>
+      <td>52</td>
+    </tr>
+    <tr>
+      <td>1732</td>
+      <td>Cleansing Channel</td>
+      <td>Major</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>1737</td>
+      <td>Draconic Fortitude</td>
+      <td>Minor</td>
+      <td>52</td>
+    </tr>
+    <tr>
+      <td>1738</td>
+      <td>Shared Empowerment</td>
+      <td>Major</td>
+      <td>52</td>
+    </tr>
+    <tr>
+      <td>1740</td>
+      <td>Dwarven Battle Training</td>
+      <td>Major</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>1741</td>
+      <td>Replenishing Despair</td>
+      <td>Major</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td>1743</td>
+      <td>Shining Aspects</td>
+      <td>Major</td>
+      <td>52</td>
+    </tr>
+    <tr>
+      <td>1744</td>
+      <td>Yearning Empowerment</td>
+      <td>Minor</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td>1746</td>
+      <td>Elevated Compassion</td>
+      <td>Major</td>
+      <td>52</td>
+    </tr>
+    <tr>
+      <td>1749</td>
+      <td>Song of the Mists</td>
+      <td>Major</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>1754</td>
+      <td>Dance of Death</td>
+      <td>Major</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>1755</td>
+      <td>Battle Scarred</td>
+      <td>Major</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>1757</td>
+      <td>Unwavering Avoidance</td>
+      <td>Minor</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>1758</td>
+      <td>Ferocious Aggression</td>
+      <td>Minor</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>1760</td>
+      <td>Rapid Flow</td>
+      <td>Major</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>1761</td>
+      <td>Rising Tide</td>
+      <td>Major</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>1765</td>
+      <td>Notoriety</td>
+      <td>Major</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>1766</td>
+      <td>Eye for an Eye</td>
+      <td>Major</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>1767</td>
+      <td>Unsuspecting Strikes</td>
+      <td>Major</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>1769</td>
+      <td>Contained Temper</td>
+      <td>Minor</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>1770</td>
+      <td>Versed in Stone</td>
+      <td>Major</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>1772</td>
+      <td>Draconic Echo</td>
+      <td>Major</td>
+      <td>52</td>
+    </tr>
+    <tr>
+      <td>1774</td>
+      <td>Spirit Boon</td>
+      <td>Major</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>1776</td>
+      <td>Aggressive Agility</td>
+      <td>Major</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>1777</td>
+      <td>Crystal Harbinger</td>
+      <td>Minor</td>
+      <td>52</td>
+    </tr>
+    <tr>
+      <td>1778</td>
+      <td>Invoker's Rage</td>
+      <td>Minor</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>1779</td>
+      <td>Vicious Reprisal</td>
+      <td>Major</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>1781</td>
+      <td>Incensed Response</td>
+      <td>Major</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>1782</td>
+      <td>Resolute Evasion</td>
+      <td>Major</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>1783</td>
+      <td>Enduring Recovery</td>
+      <td>Minor</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>1784</td>
+      <td>Glaring Resolve</td>
+      <td>Major</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>1786</td>
+      <td>Assassin's Presence</td>
+      <td>Major</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>1788</td>
+      <td>Reinforced Potency</td>
+      <td>Minor</td>
+      <td>52</td>
+    </tr>
+    <tr>
+      <td>1789</td>
+      <td>Demonic Defiance</td>
+      <td>Major</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td>1790</td>
+      <td>Steadfast Rejuvenation</td>
+      <td>Major</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>1791</td>
+      <td>Charged Mists</td>
+      <td>Major</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>1792</td>
+      <td>Targeted Destruction</td>
+      <td>Minor</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>1793</td>
+      <td>Acolyte of Torment</td>
+      <td>Major</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td>1795</td>
+      <td>Diabolic Inferno</td>
+      <td>Major</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td>1799</td>
+      <td>Invoking Torment</td>
+      <td>Minor</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td>1800</td>
+      <td>Swift Termination</td>
+      <td>Major</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>1801</td>
+      <td>Seething Malice</td>
+      <td>Minor</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td>1802</td>
+      <td>Thrill of Combat</td>
+      <td>Major</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>1803</td>
+      <td>Forceful Persistence</td>
+      <td>Major</td>
+      <td>52</td>
+    </tr>
+    <tr>
+      <td>1806</td>
+      <td>Core Value</td>
+      <td>Major</td>
+      <td>52</td>
+    </tr>
+    <tr>
+      <td>1808</td>
+      <td>Expose Defenses</td>
+      <td>Minor</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>1810</td>
+      <td>Spiritual Reckoning</td>
+      <td>Major</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>1811</td>
+      <td>Planar Protection</td>
+      <td>Major</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>1813</td>
+      <td>Elder's Respite</td>
+      <td>Major</td>
+      <td>52</td>
+    </tr>
+    <tr>
+      <td>1814</td>
+      <td>Serene Rejuvenation</td>
+      <td>Minor</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>1815</td>
+      <td>Generous Abundance</td>
+      <td>Major</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>1816</td>
+      <td>Healer's Gift</td>
+      <td>Minor</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>1817</td>
+      <td>Resilient Spirit</td>
+      <td>Major</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>1818</td>
+      <td>Invoking Harmony</td>
+      <td>Major</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>1819</td>
+      <td>Words of Censure</td>
+      <td>Major</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>1820</td>
+      <td>Selfless Amplification</td>
+      <td>Major</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>1821</td>
+      <td>Life Attunement</td>
+      <td>Minor</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>1822</td>
+      <td>Tranquil Balance</td>
+      <td>Major</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>1823</td>
+      <td>Vital Blessing</td>
+      <td>Major</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>1824</td>
+      <td>Blinding Truths</td>
+      <td>Major</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>1825</td>
+      <td>Unyielding Devotion</td>
+      <td>Major</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>1826</td>
+      <td>Longbow Proficiency</td>
+      <td>Minor</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>1829</td>
+      <td>Torch Proficiency</td>
+      <td>Minor</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>1831</td>
+      <td>Primal Rage</td>
+      <td>Minor</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>1832</td>
+      <td>Takedown Round</td>
+      <td>Major</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>1833</td>
+      <td>Lotus Training</td>
+      <td>Major</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>1834</td>
+      <td>Soothing Detonation</td>
+      <td>Major</td>
+      <td>47</td>
+    </tr>
+    <tr>
+      <td>1835</td>
+      <td>Zealot's Aggression</td>
+      <td>Major</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>1837</td>
+      <td>Endurance Thief</td>
+      <td>Minor</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>1838</td>
+      <td>Delayed Reactions</td>
+      <td>Major</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>1839</td>
+      <td>Transcendent Tempest</td>
+      <td>Major</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <td>1844</td>
+      <td>Vampiric Presence</td>
+      <td>Major</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>1846</td>
+      <td>Hidden Barbs</td>
+      <td>Major</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>1848</td>
+      <td>Virtuous Action</td>
+      <td>Minor</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>1849</td>
+      <td>Applied Force</td>
+      <td>Major</td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <td>1852</td>
+      <td>Inspiring Distortion</td>
+      <td>Minor</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>1854</td>
+      <td>Iron Blooded</td>
+      <td>Major</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <td>1856</td>
+      <td>Kinetic Battery</td>
+      <td>Major</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>1859</td>
+      <td>Time Marches On</td>
+      <td>Minor</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>1860</td>
+      <td>Object in Motion</td>
+      <td>Major</td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <td>1861</td>
+      <td>Go for the Eyes</td>
+      <td>Major</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <td>1862</td>
+      <td>Live Vicariously</td>
+      <td>Minor</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>1863</td>
+      <td>Bitter Chill</td>
+      <td>Major</td>
+      <td>53</td>
+    </tr>
+    <tr>
+      <td>1865</td>
+      <td>Chaotic Persistence</td>
+      <td>Minor</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <td>1866</td>
+      <td>Illusionary Inspiration</td>
+      <td>Major</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>1867</td>
+      <td>Mass Momentum</td>
+      <td>Major</td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <td>1868</td>
+      <td>Druidic Clarity</td>
+      <td>Major</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>1869</td>
+      <td>Persistence of Memory</td>
+      <td>Major</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>1871</td>
+      <td>Purity of Purpose</td>
+      <td>Major</td>
+      <td>29</td>
+    </tr>
+    <tr>
+      <td>1872</td>
+      <td>Mechanized Deployment</td>
+      <td>Minor</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>1874</td>
+      <td>Celestial Being</td>
+      <td>Minor</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>1876</td>
+      <td>Blood Bond</td>
+      <td>Major</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>1877</td>
+      <td>Impact Savant</td>
+      <td>Minor</td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <td>1878</td>
+      <td>Chemical Rounds</td>
+      <td>Major</td>
+      <td>38</td>
+    </tr>
+    <tr>
+      <td>1879</td>
+      <td>Shivers of Dread</td>
+      <td>Minor</td>
+      <td>34</td>
+    </tr>
+    <tr>
+      <td>1882</td>
+      <td>Glass Cannon</td>
+      <td>Major</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>1883</td>
+      <td>Insidious Disruption</td>
+      <td>Major</td>
+      <td>39</td>
+    </tr>
+    <tr>
+      <td>1884</td>
+      <td>Staff Master</td>
+      <td>Major</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>1886</td>
+      <td>Unstable Conduit</td>
+      <td>Major</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <td>1887</td>
+      <td>Weakening Strikes</td>
+      <td>Minor</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>1888</td>
+      <td>Vicious Quarry</td>
+      <td>Major</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>1889</td>
+      <td>Blinding Dissipation</td>
+      <td>Major</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>1890</td>
+      <td>Chronophantasma</td>
+      <td>Major</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>1891</td>
+      <td>Tempestuous Aria</td>
+      <td>Major</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <td>1892</td>
+      <td>Explosive Temper</td>
+      <td>Major</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>1893</td>
+      <td>Havoc Specialist</td>
+      <td>Major</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>1896</td>
+      <td>Defender's Dogma</td>
+      <td>Minor</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>1898</td>
+      <td>Piercing Light</td>
+      <td>Major</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>1899</td>
+      <td>Invigorated Bulwark</td>
+      <td>Major</td>
+      <td>49</td>
+    </tr>
+    <tr>
+      <td>1900</td>
+      <td>Pack Alpha</td>
+      <td>Minor</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <td>1901</td>
+      <td>Automated Medical Response</td>
+      <td>Major</td>
+      <td>47</td>
+    </tr>
+    <tr>
+      <td>1902</td>
+      <td>Harmonious Conduit</td>
+      <td>Major</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <td>1904</td>
+      <td>No Quarter</td>
+      <td>Major</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <td>1905</td>
+      <td>Shroud Knight</td>
+      <td>Minor</td>
+      <td>34</td>
+    </tr>
+    <tr>
+      <td>1908</td>
+      <td>Hunter's Fortification</td>
+      <td>Major</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>1910</td>
+      <td>Shield Proficiency</td>
+      <td>Minor</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>1911</td>
+      <td>Soaring Devastation</td>
+      <td>Major</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>1912</td>
+      <td>Light on your Feet</td>
+      <td>Major</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>1913</td>
+      <td>Illusionary Reversion</td>
+      <td>Major</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>1914</td>
+      <td>High Caliber</td>
+      <td>Major</td>
+      <td>38</td>
+    </tr>
+    <tr>
+      <td>1915</td>
+      <td>Healing Prism</td>
+      <td>Minor</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>1916</td>
+      <td>Medical Dispersion Field</td>
+      <td>Major</td>
+      <td>47</td>
+    </tr>
+    <tr>
+      <td>1917</td>
+      <td>Gyroscopic Acceleration</td>
+      <td>Major</td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <td>1919</td>
+      <td>Deathly Chill</td>
+      <td>Major</td>
+      <td>34</td>
+    </tr>
+    <tr>
+      <td>1922</td>
+      <td>Shrouded Removal</td>
+      <td>Major</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>1923</td>
+      <td>No Scope</td>
+      <td>Major</td>
+      <td>38</td>
+    </tr>
+    <tr>
+      <td>1925</td>
+      <td>Zealous Scepter</td>
+      <td>Major</td>
+      <td>42</td>
+    </tr>
+    <tr>
+      <td>1926</td>
+      <td>Pure of Sight</td>
+      <td>Minor</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>1927</td>
+      <td>Flow of Time</td>
+      <td>Minor</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>1928</td>
+      <td>Bloody Roar</td>
+      <td>Major</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>1929</td>
+      <td>Beyond the Veil</td>
+      <td>Minor</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>1930</td>
+      <td>Sanguine Array</td>
+      <td>Major</td>
+      <td>38</td>
+    </tr>
+    <tr>
+      <td>1931</td>
+      <td>Last Rites</td>
+      <td>Minor</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>1932</td>
+      <td>Blighter's Boon</td>
+      <td>Major</td>
+      <td>34</td>
+    </tr>
+    <tr>
+      <td>1933</td>
+      <td>Marauder's Resilience</td>
+      <td>Major</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>1935</td>
+      <td>Primal Echoes</td>
+      <td>Major</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>1936</td>
+      <td>Excessive Energy</td>
+      <td>Minor</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>1938</td>
+      <td>Gathered Focus</td>
+      <td>Minor</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <td>1940</td>
+      <td>Corrupter's Fervor</td>
+      <td>Major</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>1941</td>
+      <td>Fragility</td>
+      <td>Minor</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>1942</td>
+      <td>Lost Time</td>
+      <td>Major</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>1943</td>
+      <td>Bulwark</td>
+      <td>Major</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>1944</td>
+      <td>Blast Shield</td>
+      <td>Major</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>1945</td>
+      <td>Beastly Warden</td>
+      <td>Major</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <td>1946</td>
+      <td>Lock On</td>
+      <td>Major</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>1947</td>
+      <td>Big Boomer</td>
+      <td>Major</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>1948</td>
+      <td>Hardy Conduit</td>
+      <td>Minor</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <td>1949</td>
+      <td>Brawler's Tenacity</td>
+      <td>Major</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>1950</td>
+      <td>Ineptitude</td>
+      <td>Major</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>1951</td>
+      <td>Hammer Proficiency</td>
+      <td>Minor</td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <td>1952</td>
+      <td>Gale Song</td>
+      <td>Major</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <td>1954</td>
+      <td>Damage Dampener</td>
+      <td>Major</td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <td>1955</td>
+      <td>Big Game Hunter</td>
+      <td>Major</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>1957</td>
+      <td>Staff Proficiency</td>
+      <td>Minor</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>1959</td>
+      <td>Function Gyro</td>
+      <td>Minor</td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <td>1960</td>
+      <td>Evasive Mirror</td>
+      <td>Major</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>1962</td>
+      <td>Latent Stamina</td>
+      <td>Major</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <td>1963</td>
+      <td>Heavy Light</td>
+      <td>Major</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>1964</td>
+      <td>Unhindered Combatant</td>
+      <td>Major</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>1965</td>
+      <td>Staff Proficiency</td>
+      <td>Minor</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>1969</td>
+      <td>Soul Eater</td>
+      <td>Major</td>
+      <td>34</td>
+    </tr>
+    <tr>
+      <td>1971</td>
+      <td>System Shocker</td>
+      <td>Major</td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <td>1974</td>
+      <td>Augury of Death</td>
+      <td>Major</td>
+      <td>34</td>
+    </tr>
+    <tr>
+      <td>1975</td>
+      <td>Impacting Disruption</td>
+      <td>Major</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>1977</td>
+      <td>Savage Instinct</td>
+      <td>Major</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>1978</td>
+      <td>Improved Alacrity</td>
+      <td>Major</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>1979</td>
+      <td>Optimized Activation</td>
+      <td>Minor</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>1980</td>
+      <td>Protected Phantasms</td>
+      <td>Major</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>1981</td>
+      <td>Adaptive Armor</td>
+      <td>Major</td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <td>1983</td>
+      <td>Dulled Senses</td>
+      <td>Major</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>1984</td>
+      <td>Pinpoint Distribution</td>
+      <td>Major</td>
+      <td>38</td>
+    </tr>
+    <tr>
+      <td>1985</td>
+      <td>Greatsword Proficiency</td>
+      <td>Minor</td>
+      <td>34</td>
+    </tr>
+    <tr>
+      <td>1986</td>
+      <td>Elemental Bastion</td>
+      <td>Major</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <td>1987</td>
+      <td>All's Well That Ends Well</td>
+      <td>Major</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>1988</td>
+      <td>Protective Ward</td>
+      <td>Major</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>1992</td>
+      <td>Natural Mender</td>
+      <td>Minor</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>1993</td>
+      <td>Burst of Aggression</td>
+      <td>Minor</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>1994</td>
+      <td>Physical Supremacy</td>
+      <td>Minor</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>1995</td>
+      <td>Time Catches Up</td>
+      <td>Major</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>1997</td>
+      <td>Reactive Lenses</td>
+      <td>Major</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>1999</td>
+      <td>Expert Examination</td>
+      <td>Major</td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <td>2000</td>
+      <td>Body Blow</td>
+      <td>Major</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2001</td>
+      <td>Verdant Etching</td>
+      <td>Major</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2002</td>
+      <td>Dead or Alive</td>
+      <td>Major</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>2004</td>
+      <td>Elemental Enchantment</td>
+      <td>Minor</td>
+      <td>37</td>
+    </tr>
+    <tr>
+      <td>2005</td>
+      <td>Mental Defense</td>
+      <td>Major</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>2006</td>
+      <td>Thermal Vision</td>
+      <td>Major</td>
+      <td>38</td>
+    </tr>
+    <tr>
+      <td>2008</td>
+      <td>Chilling Victory</td>
+      <td>Major</td>
+      <td>34</td>
+    </tr>
+    <tr>
+      <td>2009</td>
+      <td>Danger Time</td>
+      <td>Major</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>2011</td>
+      <td>Blood Reaction</td>
+      <td>Major</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>Plague Sending</td>
+      <td>Major</td>
+      <td>39</td>
+    </tr>
+    <tr>
+      <td>2014</td>
+      <td>Speed of Synergy</td>
+      <td>Minor</td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Invigorating Torrents</td>
+      <td>Major</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <td>2016</td>
+      <td>Cultivated Synergy</td>
+      <td>Major</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>Symbolic Avenger</td>
+      <td>Major</td>
+      <td>42</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Cold Shoulder</td>
+      <td>Minor</td>
+      <td>34</td>
+    </tr>
+    <tr>
+      <td>2020</td>
+      <td>Chilling Nova</td>
+      <td>Major</td>
+      <td>34</td>
+    </tr>
+    <tr>
+      <td>2021</td>
+      <td>Reaper's Onslaught</td>
+      <td>Major</td>
+      <td>34</td>
+    </tr>
+    <tr>
+      <td>2022</td>
+      <td>Seize the Moment</td>
+      <td>Major</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>2023</td>
+      <td>Escapist's Fortitude</td>
+      <td>Major</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>2025</td>
+      <td>Singularity</td>
+      <td>Minor</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <td>2026</td>
+      <td>Relentless Pursuit</td>
+      <td>Major</td>
+      <td>34</td>
+    </tr>
+    <tr>
+      <td>2028</td>
+      <td>Soothing Power</td>
+      <td>Major</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>2030</td>
+      <td>Time Splitter</td>
+      <td>Minor</td>
+      <td>40</td>
+    </tr>
+    <tr>
+      <td>2031</td>
+      <td>Decimate Defenses</td>
+      <td>Major</td>
+      <td>34</td>
+    </tr>
+    <tr>
+      <td>2032</td>
+      <td>Refined Toxins</td>
+      <td>Major</td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <td>2033</td>
+      <td>Lucid Singularity</td>
+      <td>Major</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <td>2035</td>
+      <td>Master of Fragmentation</td>
+      <td>Major</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>2036</td>
+      <td>Warhorn Proficiency</td>
+      <td>Minor</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <td>2037</td>
+      <td>Hunter's Determination</td>
+      <td>Major</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>2038</td>
+      <td>King of Fires</td>
+      <td>Major</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>2039</td>
+      <td>Last Blaze</td>
+      <td>Major</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>2042</td>
+      <td>Heat the Soul</td>
+      <td>Major</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>2043</td>
+      <td>Eternal Champion</td>
+      <td>Major</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>2046</td>
+      <td>Fatal Frenzy</td>
+      <td>Minor</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>2047</td>
+      <td>Bounding Dodger</td>
+      <td>Major</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>2049</td>
+      <td>Smash Brawler</td>
+      <td>Major</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>2050</td>
+      <td>Shield Proficiency</td>
+      <td>Minor</td>
+      <td>52</td>
+    </tr>
+    <tr>
+      <td>2052</td>
+      <td>Kinetic Accelerators</td>
+      <td>Major</td>
+      <td>43</td>
+    </tr>
+    <tr>
+      <td>2053</td>
+      <td>Celestial Shadow</td>
+      <td>Major</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2055</td>
+      <td>Ancient Seeds</td>
+      <td>Major</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2056</td>
+      <td>Natural Stride</td>
+      <td>Major</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2057</td>
+      <td>Grace of the Land</td>
+      <td>Major</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2058</td>
+      <td>Lingering Light</td>
+      <td>Major</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2059</td>
+      <td>Desert Empowerment</td>
+      <td>Major</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <td>2060</td>
+      <td>Magebane Tether</td>
+      <td>Major</td>
+      <td>61</td>
+    </tr>
+    <tr>
+      <td>2061</td>
+      <td>Swift Revenge</td>
+      <td>Major</td>
+      <td>56</td>
+    </tr>
+    <tr>
+      <td>2062</td>
+      <td>Swift Scholar</td>
+      <td>Minor</td>
+      <td>62</td>
+    </tr>
+    <tr>
+      <td>2063</td>
+      <td>Weighty Terms</td>
+      <td>Major</td>
+      <td>62</td>
+    </tr>
+    <tr>
+      <td>2064</td>
+      <td>Photonic Blasting Module</td>
+      <td>Major</td>
+      <td>57</td>
+    </tr>
+    <tr>
+      <td>2066</td>
+      <td>Thermal Release Valve</td>
+      <td>Major</td>
+      <td>57</td>
+    </tr>
+    <tr>
+      <td>2067</td>
+      <td>Sadistic Searing</td>
+      <td>Major</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <td>2069</td>
+      <td>Nomad's Endurance</td>
+      <td>Minor</td>
+      <td>59</td>
+    </tr>
+    <tr>
+      <td>2070</td>
+      <td>Infinite Horizon</td>
+      <td>Major</td>
+      <td>59</td>
+    </tr>
+    <tr>
+      <td>2071</td>
+      <td>Live Fast</td>
+      <td>Major</td>
+      <td>55</td>
+    </tr>
+    <tr>
+      <td>2072</td>
+      <td>Unstoppable Union</td>
+      <td>Major</td>
+      <td>55</td>
+    </tr>
+    <tr>
+      <td>2073</td>
+      <td>Axe Proficiency</td>
+      <td>Minor</td>
+      <td>62</td>
+    </tr>
+    <tr>
+      <td>2074</td>
+      <td>Fell Beacon</td>
+      <td>Major</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <td>2075</td>
+      <td>Unrelenting Criticism</td>
+      <td>Major</td>
+      <td>62</td>
+    </tr>
+    <tr>
+      <td>2076</td>
+      <td>Stalwart Speed</td>
+      <td>Major</td>
+      <td>62</td>
+    </tr>
+    <tr>
+      <td>2077</td>
+      <td>Elemental Refreshment</td>
+      <td>Minor</td>
+      <td>56</td>
+    </tr>
+    <tr>
+      <td>2078</td>
+      <td>Payback</td>
+      <td>Major</td>
+      <td>58</td>
+    </tr>
+    <tr>
+      <td>2079</td>
+      <td>Blood Fury</td>
+      <td>Major</td>
+      <td>63</td>
+    </tr>
+    <tr>
+      <td>2080</td>
+      <td>Feed from Corruption</td>
+      <td>Major</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <td>2081</td>
+      <td>Elemental Polyphony</td>
+      <td>Minor</td>
+      <td>56</td>
+    </tr>
+    <tr>
+      <td>2082</td>
+      <td>Renewing Oasis</td>
+      <td>Major</td>
+      <td>59</td>
+    </tr>
+    <tr>
+      <td>2084</td>
+      <td>Iron Sight</td>
+      <td>Minor</td>
+      <td>58</td>
+    </tr>
+    <tr>
+      <td>2085</td>
+      <td>Essence of Speed</td>
+      <td>Major</td>
+      <td>55</td>
+    </tr>
+    <tr>
+      <td>2086</td>
+      <td>Archivist of Whispers</td>
+      <td>Major</td>
+      <td>62</td>
+    </tr>
+    <tr>
+      <td>2087</td>
+      <td>Axe Proficiency</td>
+      <td>Minor</td>
+      <td>59</td>
+    </tr>
+    <tr>
+      <td>2088</td>
+      <td>Dagger Proficiency</td>
+      <td>Minor</td>
+      <td>55</td>
+    </tr>
+    <tr>
+      <td>2089</td>
+      <td>Purity of Word</td>
+      <td>Minor</td>
+      <td>62</td>
+    </tr>
+    <tr>
+      <td>2090</td>
+      <td>Woven Stride</td>
+      <td>Major</td>
+      <td>56</td>
+    </tr>
+    <tr>
+      <td>2091</td>
+      <td>Crystal Configuration: Zephyr</td>
+      <td>Major</td>
+      <td>57</td>
+    </tr>
+    <tr>
+      <td>2092</td>
+      <td>Heartpiercer</td>
+      <td>Major</td>
+      <td>63</td>
+    </tr>
+    <tr>
+      <td>2093</td>
+      <td>Be Quick or Be Killed</td>
+      <td>Major</td>
+      <td>58</td>
+    </tr>
+    <tr>
+      <td>2094</td>
+      <td>Vindication</td>
+      <td>Major</td>
+      <td>63</td>
+    </tr>
+    <tr>
+      <td>2095</td>
+      <td>Sun and Moon Style</td>
+      <td>Major</td>
+      <td>61</td>
+    </tr>
+    <tr>
+      <td>2096</td>
+      <td>Blood as Sand</td>
+      <td>Minor</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <td>2097</td>
+      <td>Slow Counter</td>
+      <td>Major</td>
+      <td>61</td>
+    </tr>
+    <tr>
+      <td>2098</td>
+      <td>Mirrored Axes</td>
+      <td>Major</td>
+      <td>59</td>
+    </tr>
+    <tr>
+      <td>2099</td>
+      <td>Short Bow Proficiency</td>
+      <td>Minor</td>
+      <td>63</td>
+    </tr>
+    <tr>
+      <td>2100</td>
+      <td>Lasting Legacy</td>
+      <td>Major</td>
+      <td>63</td>
+    </tr>
+    <tr>
+      <td>2101</td>
+      <td>Liberator's Vow</td>
+      <td>Major</td>
+      <td>62</td>
+    </tr>
+    <tr>
+      <td>2102</td>
+      <td>Nourishing Ashes</td>
+      <td>Major</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <td>2103</td>
+      <td>Crystal Configuration: Storm</td>
+      <td>Major</td>
+      <td>57</td>
+    </tr>
+    <tr>
+      <td>2105</td>
+      <td>Stoic Demeanor</td>
+      <td>Major</td>
+      <td>62</td>
+    </tr>
+    <tr>
+      <td>2106</td>
+      <td>Solar Focusing Lens</td>
+      <td>Major</td>
+      <td>57</td>
+    </tr>
+    <tr>
+      <td>2107</td>
+      <td>Pure Strike</td>
+      <td>Major</td>
+      <td>61</td>
+    </tr>
+    <tr>
+      <td>2108</td>
+      <td>All for One</td>
+      <td>Major</td>
+      <td>63</td>
+    </tr>
+    <tr>
+      <td>2109</td>
+      <td>Weaver</td>
+      <td>Minor</td>
+      <td>56</td>
+    </tr>
+    <tr>
+      <td>2110</td>
+      <td>Riddle of Sand</td>
+      <td>Major</td>
+      <td>59</td>
+    </tr>
+    <tr>
+      <td>2111</td>
+      <td>Maleficent Seven</td>
+      <td>Major</td>
+      <td>58</td>
+    </tr>
+    <tr>
+      <td>2112</td>
+      <td>Sand Savant</td>
+      <td>Major</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <td>2113</td>
+      <td>Elusive Mind</td>
+      <td>Major</td>
+      <td>59</td>
+    </tr>
+    <tr>
+      <td>2114</td>
+      <td>Light Density Amplifier</td>
+      <td>Major</td>
+      <td>57</td>
+    </tr>
+    <tr>
+      <td>2115</td>
+      <td>Master's Fortitude</td>
+      <td>Major</td>
+      <td>56</td>
+    </tr>
+    <tr>
+      <td>2116</td>
+      <td>Legendary Lore</td>
+      <td>Major</td>
+      <td>62</td>
+    </tr>
+    <tr>
+      <td>2117</td>
+      <td>Speed of Sand</td>
+      <td>Minor</td>
+      <td>59</td>
+    </tr>
+    <tr>
+      <td>2118</td>
+      <td>Silent Scope</td>
+      <td>Major</td>
+      <td>58</td>
+    </tr>
+    <tr>
+      <td>2119</td>
+      <td>Second Skin</td>
+      <td>Major</td>
+      <td>55</td>
+    </tr>
+    <tr>
+      <td>2120</td>
+      <td>Wrought-Iron Will</td>
+      <td>Major</td>
+      <td>63</td>
+    </tr>
+    <tr>
+      <td>2121</td>
+      <td>Sand Sage</td>
+      <td>Minor</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <td>2122</td>
+      <td>Laser's Edge</td>
+      <td>Minor</td>
+      <td>57</td>
+    </tr>
+    <tr>
+      <td>2123</td>
+      <td>Herald of Sorrow</td>
+      <td>Major</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <td>2124</td>
+      <td>Dagger Proficiency</td>
+      <td>Minor</td>
+      <td>61</td>
+    </tr>
+    <tr>
+      <td>2125</td>
+      <td>Sword Proficiency</td>
+      <td>Minor</td>
+      <td>57</td>
+    </tr>
+    <tr>
+      <td>2126</td>
+      <td>Loss Aversion</td>
+      <td>Major</td>
+      <td>61</td>
+    </tr>
+    <tr>
+      <td>2127</td>
+      <td>Twice as Vicious</td>
+      <td>Minor</td>
+      <td>55</td>
+    </tr>
+    <tr>
+      <td>2128</td>
+      <td>Leader of the Pack</td>
+      <td>Major</td>
+      <td>55</td>
+    </tr>
+    <tr>
+      <td>2129</td>
+      <td>Rifle Proficiency</td>
+      <td>Minor</td>
+      <td>58</td>
+    </tr>
+    <tr>
+      <td>2130</td>
+      <td>Attacker's Insight</td>
+      <td>Minor</td>
+      <td>61</td>
+    </tr>
+    <tr>
+      <td>2131</td>
+      <td>Elements of Rage</td>
+      <td>Major</td>
+      <td>56</td>
+    </tr>
+    <tr>
+      <td>2133</td>
+      <td>Bold Reversal</td>
+      <td>Major</td>
+      <td>63</td>
+    </tr>
+    <tr>
+      <td>2134</td>
+      <td>Fresh Reinforcement</td>
+      <td>Major</td>
+      <td>55</td>
+    </tr>
+    <tr>
+      <td>2135</td>
+      <td>Heat Therapy</td>
+      <td>Minor</td>
+      <td>57</td>
+    </tr>
+    <tr>
+      <td>2136</td>
+      <td>One in the Chamber</td>
+      <td>Major</td>
+      <td>58</td>
+    </tr>
+    <tr>
+      <td>2137</td>
+      <td>Enhanced Capacity Storage Unit</td>
+      <td>Major</td>
+      <td>57</td>
+    </tr>
+    <tr>
+      <td>2138</td>
+      <td>Invigorating Strikes</td>
+      <td>Major</td>
+      <td>56</td>
+    </tr>
+    <tr>
+      <td>2140</td>
+      <td>No Escape</td>
+      <td>Major</td>
+      <td>61</td>
+    </tr>
+    <tr>
+      <td>2141</td>
+      <td>Self-Deception</td>
+      <td>Major</td>
+      <td>59</td>
+    </tr>
+    <tr>
+      <td>2142</td>
+      <td>Brutal Momentum</td>
+      <td>Minor</td>
+      <td>63</td>
+    </tr>
+    <tr>
+      <td>2143</td>
+      <td>Oppressive Superiority</td>
+      <td>Major</td>
+      <td>55</td>
+    </tr>
+    <tr>
+      <td>2144</td>
+      <td>Torch Proficiency</td>
+      <td>Minor</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <td>2145</td>
+      <td>Malicious Intent</td>
+      <td>Major</td>
+      <td>58</td>
+    </tr>
+    <tr>
+      <td>2146</td>
+      <td>Fire for Effect</td>
+      <td>Major</td>
+      <td>58</td>
+    </tr>
+    <tr>
+      <td>2147</td>
+      <td>Mantle of Sand</td>
+      <td>Minor</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <td>2148</td>
+      <td>Imbued Haste</td>
+      <td>Minor</td>
+      <td>62</td>
+    </tr>
+    <tr>
+      <td>2149</td>
+      <td>Sword Proficiency</td>
+      <td>Minor</td>
+      <td>56</td>
+    </tr>
+    <tr>
+      <td>2150</td>
+      <td>Mirage Cloak</td>
+      <td>Minor</td>
+      <td>59</td>
+    </tr>
+    <tr>
+      <td>2151</td>
+      <td>Elevated Bond</td>
+      <td>Minor</td>
+      <td>55</td>
+    </tr>
+    <tr>
+      <td>2152</td>
+      <td>Crystal Configuration: Eclipse</td>
+      <td>Major</td>
+      <td>57</td>
+    </tr>
+    <tr>
+      <td>2153</td>
+      <td>Guard Counter</td>
+      <td>Major</td>
+      <td>61</td>
+    </tr>
+    <tr>
+      <td>2154</td>
+      <td>Endless Enmity</td>
+      <td>Minor</td>
+      <td>63</td>
+    </tr>
+    <tr>
+      <td>2155</td>
+      <td>Eternal Bond</td>
+      <td>Major</td>
+      <td>55</td>
+    </tr>
+    <tr>
+      <td>2156</td>
+      <td>Furious Strength</td>
+      <td>Minor</td>
+      <td>55</td>
+    </tr>
+    <tr>
+      <td>2157</td>
+      <td>Prismatic Converter</td>
+      <td>Major</td>
+      <td>57</td>
+    </tr>
+    <tr>
+      <td>2158</td>
+      <td>Photon Projector</td>
+      <td>Minor</td>
+      <td>57</td>
+    </tr>
+    <tr>
+      <td>2159</td>
+      <td>Loremaster</td>
+      <td>Major</td>
+      <td>62</td>
+    </tr>
+    <tr>
+      <td>2160</td>
+      <td>Premeditation</td>
+      <td>Major</td>
+      <td>58</td>
+    </tr>
+    <tr>
+      <td>2161</td>
+      <td>Predator's Cunning</td>
+      <td>Major</td>
+      <td>55</td>
+    </tr>
+    <tr>
+      <td>2162</td>
+      <td>Dispelling Force</td>
+      <td>Minor</td>
+      <td>61</td>
+    </tr>
+    <tr>
+      <td>2163</td>
+      <td>Enchantment Collapse</td>
+      <td>Major</td>
+      <td>61</td>
+    </tr>
+    <tr>
+      <td>2164</td>
+      <td>Demonic Lore</td>
+      <td>Major</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <td>2165</td>
+      <td>Elemental Pursuit</td>
+      <td>Major</td>
+      <td>56</td>
+    </tr>
+    <tr>
+      <td>2166</td>
+      <td>Ashen Demeanor</td>
+      <td>Major</td>
+      <td>63</td>
+    </tr>
+    <tr>
+      <td>2167</td>
+      <td>Abrasive Grit</td>
+      <td>Major</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <td>2168</td>
+      <td>Revenge Counter</td>
+      <td>Major</td>
+      <td>61</td>
+    </tr>
+    <tr>
+      <td>2169</td>
+      <td>Dune Cloak</td>
+      <td>Major</td>
+      <td>59</td>
+    </tr>
+    <tr>
+      <td>2170</td>
+      <td>Bolstered Elements</td>
+      <td>Major</td>
+      <td>56</td>
+    </tr>
+    <tr>
+      <td>2171</td>
+      <td>Deadeye's Gaze</td>
+      <td>Minor</td>
+      <td>58</td>
+    </tr>
+    <tr>
+      <td>2172</td>
+      <td>Renewing Gaze</td>
+      <td>Minor</td>
+      <td>58</td>
+    </tr>
+    <tr>
+      <td>2173</td>
+      <td>Collateral Damage</td>
+      <td>Major</td>
+      <td>58</td>
+    </tr>
+    <tr>
+      <td>2174</td>
+      <td>Mirage Mantle</td>
+      <td>Major</td>
+      <td>59</td>
+    </tr>
+    <tr>
+      <td>2175</td>
+      <td>Spellbreaker's Conviction</td>
+      <td>Minor</td>
+      <td>61</td>
+    </tr>
+    <tr>
+      <td>2177</td>
+      <td>Superior Elements</td>
+      <td>Major</td>
+      <td>56</td>
+    </tr>
+    <tr>
+      <td>2178</td>
+      <td>Desert Distortion</td>
+      <td>Major</td>
+      <td>59</td>
+    </tr>
+    <tr>
+      <td>2179</td>
+      <td>Quickfire</td>
+      <td>Major</td>
+      <td>62</td>
+    </tr>
+    <tr>
+      <td>2180</td>
+      <td>Weaver's Prowess</td>
+      <td>Major</td>
+      <td>56</td>
+    </tr>
+    <tr>
+      <td>2181</td>
+      <td>Ambush Commander</td>
+      <td>Minor</td>
+      <td>63</td>
+    </tr>
+    <tr>
+      <td>2182</td>
+      <td>Righteous Rebel</td>
+      <td>Major</td>
+      <td>63</td>
+    </tr>
+    <tr>
+      <td>2183</td>
+      <td>Dark Disciple</td>
+      <td>Minor</td>
+      <td>64</td>
+    </tr>
+    <tr>
+      <td>2184</td>
+      <td>Specter</td>
+      <td>Minor</td>
+      <td>71</td>
+    </tr>
+    <tr>
+      <td>2185</td>
+      <td>Septic Corruption</td>
+      <td>Major</td>
+      <td>64</td>
+    </tr>
+    <tr>
+      <td>2186</td>
+      <td>Alchemic Vigor</td>
+      <td>Minor</td>
+      <td>64</td>
+    </tr>
+    <tr>
+      <td>2187</td>
+      <td>Conceited Curate</td>
+      <td>Major</td>
+      <td>65</td>
+    </tr>
+    <tr>
+      <td>2188</td>
+      <td>Wicked Corruption</td>
+      <td>Major</td>
+      <td>64</td>
+    </tr>
+    <tr>
+      <td>2189</td>
+      <td>Lethal Tempo</td>
+      <td>Minor</td>
+      <td>65</td>
+    </tr>
+    <tr>
+      <td>2190</td>
+      <td>Power for Power</td>
+      <td>Major</td>
+      <td>65</td>
+    </tr>
+    <tr>
+      <td>2191</td>
+      <td>Searing Pact</td>
+      <td>Major</td>
+      <td>65</td>
+    </tr>
+    <tr>
+      <td>2192</td>
+      <td>Implacable Foe</td>
+      <td>Major</td>
+      <td>64</td>
+    </tr>
+    <tr>
+      <td>2193</td>
+      <td>Quiet Intensity</td>
+      <td>Minor</td>
+      <td>66</td>
+    </tr>
+    <tr>
+      <td>2194</td>
+      <td>Deathly Haste</td>
+      <td>Major</td>
+      <td>64</td>
+    </tr>
+    <tr>
+      <td>2195</td>
+      <td>Phoenix Protocol</td>
+      <td>Major</td>
+      <td>65</td>
+    </tr>
+    <tr>
+      <td>2196</td>
+      <td>Sword Proficiency</td>
+      <td>Minor</td>
+      <td>65</td>
+    </tr>
+    <tr>
+      <td>2197</td>
+      <td>Restorative Virtues</td>
+      <td>Major</td>
+      <td>65</td>
+    </tr>
+    <tr>
+      <td>2198</td>
+      <td>Deathless Courage</td>
+      <td>Major</td>
+      <td>65</td>
+    </tr>
+    <tr>
+      <td>2199</td>
+      <td>Vanguard Tactics</td>
+      <td>Major</td>
+      <td>65</td>
+    </tr>
+    <tr>
+      <td>2200</td>
+      <td>Willbender Training</td>
+      <td>Minor</td>
+      <td>65</td>
+    </tr>
+    <tr>
+      <td>2201</td>
+      <td>Tyrant's Momentum</td>
+      <td>Major</td>
+      <td>65</td>
+    </tr>
+    <tr>
+      <td>2202</td>
+      <td>Jagged Mind</td>
+      <td>Major</td>
+      <td>66</td>
+    </tr>
+    <tr>
+      <td>2203</td>
+      <td>Doom Approaches</td>
+      <td>Major</td>
+      <td>64</td>
+    </tr>
+    <tr>
+      <td>2204</td>
+      <td>Deadly Blades</td>
+      <td>Minor</td>
+      <td>66</td>
+    </tr>
+    <tr>
+      <td>2205</td>
+      <td>Phantasmal Blades</td>
+      <td>Major</td>
+      <td>66</td>
+    </tr>
+    <tr>
+      <td>2206</td>
+      <td>Infinite Forge</td>
+      <td>Major</td>
+      <td>66</td>
+    </tr>
+    <tr>
+      <td>2207</td>
+      <td>Sharpening Sorrow</td>
+      <td>Major</td>
+      <td>66</td>
+    </tr>
+    <tr>
+      <td>2208</td>
+      <td>Mental Focus</td>
+      <td>Major</td>
+      <td>66</td>
+    </tr>
+    <tr>
+      <td>2209</td>
+      <td>Dark Gunslinger</td>
+      <td>Major</td>
+      <td>64</td>
+    </tr>
+    <tr>
+      <td>2210</td>
+      <td>Holy Reckoning</td>
+      <td>Major</td>
+      <td>65</td>
+    </tr>
+    <tr>
+      <td>2211</td>
+      <td>Psychic Riposte</td>
+      <td>Major</td>
+      <td>66</td>
+    </tr>
+    <tr>
+      <td>2212</td>
+      <td>Bladeturn Refrain</td>
+      <td>Major</td>
+      <td>66</td>
+    </tr>
+    <tr>
+      <td>2213</td>
+      <td>Pistol Proficiency</td>
+      <td>Minor</td>
+      <td>64</td>
+    </tr>
+    <tr>
+      <td>2214</td>
+      <td>Dagger Proficiency</td>
+      <td>Minor</td>
+      <td>66</td>
+    </tr>
+    <tr>
+      <td>2215</td>
+      <td>Duelist's Reversal</td>
+      <td>Major</td>
+      <td>66</td>
+    </tr>
+    <tr>
+      <td>2216</td>
+      <td>Psychic Blades</td>
+      <td>Minor</td>
+      <td>66</td>
+    </tr>
+    <tr>
+      <td>2217</td>
+      <td>Corrupted Talent</td>
+      <td>Minor</td>
+      <td>64</td>
+    </tr>
+    <tr>
+      <td>2218</td>
+      <td>Cascading Corruption</td>
+      <td>Major</td>
+      <td>64</td>
+    </tr>
+    <tr>
+      <td>2219</td>
+      <td>Vile Vials</td>
+      <td>Major</td>
+      <td>64</td>
+    </tr>
+    <tr>
+      <td>2220</td>
+      <td>Twisted Medicine</td>
+      <td>Major</td>
+      <td>64</td>
+    </tr>
+    <tr>
+      <td>2222</td>
+      <td>Righteous Sprint</td>
+      <td>Minor</td>
+      <td>65</td>
+    </tr>
+    <tr>
+      <td>2223</td>
+      <td>Bloodsong</td>
+      <td>Major</td>
+      <td>66</td>
+    </tr>
+    <tr>
+      <td>2224</td>
+      <td>Energized Elements</td>
+      <td>Major</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <td>2225</td>
+      <td>Unseen Sword</td>
+      <td>Major</td>
+      <td>68</td>
+    </tr>
+    <tr>
+      <td>2226</td>
+      <td>Gun X Sword</td>
+      <td>Minor</td>
+      <td>68</td>
+    </tr>
+    <tr>
+      <td>2227</td>
+      <td>Depth of Elements</td>
+      <td>Minor</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <td>2228</td>
+      <td>Redemptor's Sermon</td>
+      <td>Major</td>
+      <td>69</td>
+    </tr>
+    <tr>
+      <td>2229</td>
+      <td>Empire Divided</td>
+      <td>Minor</td>
+      <td>69</td>
+    </tr>
+    <tr>
+      <td>2230</td>
+      <td>Hardened Auras</td>
+      <td>Major</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <td>2231</td>
+      <td>Elemental Epitome</td>
+      <td>Minor</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <td>2232</td>
+      <td>Vassals of the Empire</td>
+      <td>Major</td>
+      <td>69</td>
+    </tr>
+    <tr>
+      <td>2233</td>
+      <td>Staunch Auras</td>
+      <td>Major</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <td>2234</td>
+      <td>Spectacular Sphere</td>
+      <td>Major</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <td>2235</td>
+      <td>Greatsword Proficiency</td>
+      <td>Minor</td>
+      <td>69</td>
+    </tr>
+    <tr>
+      <td>2237</td>
+      <td>River's Flow</td>
+      <td>Major</td>
+      <td>68</td>
+    </tr>
+    <tr>
+      <td>2238</td>
+      <td>Saint of zu Heltzer</td>
+      <td>Major</td>
+      <td>69</td>
+    </tr>
+    <tr>
+      <td>2239</td>
+      <td>Unyielding Dragon</td>
+      <td>Major</td>
+      <td>68</td>
+    </tr>
+    <tr>
+      <td>2241</td>
+      <td>Empowered Empowerment</td>
+      <td>Major</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <td>2242</td>
+      <td>Dragonscale Defense</td>
+      <td>Minor</td>
+      <td>68</td>
+    </tr>
+    <tr>
+      <td>2243</td>
+      <td>Angsiyan's Trust</td>
+      <td>Major</td>
+      <td>69</td>
+    </tr>
+    <tr>
+      <td>2245</td>
+      <td>Daring Dragon</td>
+      <td>Major</td>
+      <td>68</td>
+    </tr>
+    <tr>
+      <td>2246</td>
+      <td>Hammer Proficiency</td>
+      <td>Minor</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <td>2247</td>
+      <td>Empowering Auras</td>
+      <td>Major</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <td>2248</td>
+      <td>Amnesty of Shing Jea</td>
+      <td>Major</td>
+      <td>69</td>
+    </tr>
+    <tr>
+      <td>2249</td>
+      <td>Evasive Empowerment</td>
+      <td>Major</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <td>2250</td>
+      <td>Elemental Empowerment</td>
+      <td>Minor</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <td>2251</td>
+      <td>Sphere Specialist</td>
+      <td>Major</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <td>2252</td>
+      <td>Vicious Empowerment</td>
+      <td>Major</td>
+      <td>67</td>
+    </tr>
+    <tr>
+      <td>2253</td>
+      <td>Unshakable Mountain</td>
+      <td>Major</td>
+      <td>68</td>
+    </tr>
+    <tr>
+      <td>2254</td>
+      <td>Balance in Discord</td>
+      <td>Minor</td>
+      <td>69</td>
+    </tr>
+    <tr>
+      <td>2255</td>
+      <td>Song of Arboreum</td>
+      <td>Major</td>
+      <td>69</td>
+    </tr>
+    <tr>
+      <td>2256</td>
+      <td>Pistol Proficiency</td>
+      <td>Minor</td>
+      <td>68</td>
+    </tr>
+    <tr>
+      <td>2257</td>
+      <td>Forerunner of Death</td>
+      <td>Major</td>
+      <td>69</td>
+    </tr>
+    <tr>
+      <td>2258</td>
+      <td>Leviathan Strength</td>
+      <td>Major</td>
+      <td>69</td>
+    </tr>
+    <tr>
+      <td>2259</td>
+      <td>Reaver's Curse</td>
+      <td>Major</td>
+      <td>69</td>
+    </tr>
+    <tr>
+      <td>2260</td>
+      <td>Swift as the Wind</td>
+      <td>Major</td>
+      <td>68</td>
+    </tr>
+    <tr>
+      <td>2261</td>
+      <td>Immortal Dragon</td>
+      <td>Major</td>
+      <td>68</td>
+    </tr>
+    <tr>
+      <td>2262</td>
+      <td>Tenacious Ruin</td>
+      <td>Minor</td>
+      <td>69</td>
+    </tr>
+    <tr>
+      <td>2263</td>
+      <td>Enhancing Impact</td>
+      <td>Major</td>
+      <td>72</td>
+    </tr>
+    <tr>
+      <td>2264</td>
+      <td>Strength of Shadows</td>
+      <td>Major</td>
+      <td>71</td>
+    </tr>
+    <tr>
+      <td>2265</td>
+      <td>Mace Proficiency</td>
+      <td>Minor</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <td>2266</td>
+      <td>Mech Fighter</td>
+      <td>Minor</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <td>2267</td>
+      <td>Exigency Protocols</td>
+      <td>Minor</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <td>2268</td>
+      <td>Unleashed Power</td>
+      <td>Minor</td>
+      <td>72</td>
+    </tr>
+    <tr>
+      <td>2269</td>
+      <td>Vow of the Untamed</td>
+      <td>Minor</td>
+      <td>72</td>
+    </tr>
+    <tr>
+      <td>2270</td>
+      <td>Mech Frame: Conductive Alloys</td>
+      <td>Major</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <td>2271</td>
+      <td>Fervent Force</td>
+      <td>Major</td>
+      <td>72</td>
+    </tr>
+    <tr>
+      <td>2272</td>
+      <td>Dark Sentry</td>
+      <td>Minor</td>
+      <td>71</td>
+    </tr>
+    <tr>
+      <td>2273</td>
+      <td>Hammer Proficiency</td>
+      <td>Minor</td>
+      <td>72</td>
+    </tr>
+    <tr>
+      <td>2274</td>
+      <td>Ferocious Symbiosis</td>
+      <td>Major</td>
+      <td>72</td>
+    </tr>
+    <tr>
+      <td>2275</td>
+      <td>Consume Shadows</td>
+      <td>Major</td>
+      <td>71</td>
+    </tr>
+    <tr>
+      <td>2276</td>
+      <td>Mech Frame: Channeling Conduits</td>
+      <td>Major</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <td>2277</td>
+      <td>Nature's Shield</td>
+      <td>Major</td>
+      <td>72</td>
+    </tr>
+    <tr>
+      <td>2278</td>
+      <td>Corrupting Vines</td>
+      <td>Major</td>
+      <td>72</td>
+    </tr>
+    <tr>
+      <td>2279</td>
+      <td>Mech Arms: Jade Cannons</td>
+      <td>Major</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <td>2280</td>
+      <td>Panaku's Ambition</td>
+      <td>Minor</td>
+      <td>71</td>
+    </tr>
+    <tr>
+      <td>2281</td>
+      <td>Mech Core: Barrier Engine</td>
+      <td>Major</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <td>2282</td>
+      <td>Mech Arms: Single-Edge Cutters</td>
+      <td>Major</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <td>2283</td>
+      <td>Restorative Strikes</td>
+      <td>Major</td>
+      <td>72</td>
+    </tr>
+    <tr>
+      <td>2284</td>
+      <td>Second Opinion</td>
+      <td>Major</td>
+      <td>71</td>
+    </tr>
+    <tr>
+      <td>2285</td>
+      <td>Traversing Dusk</td>
+      <td>Major</td>
+      <td>71</td>
+    </tr>
+    <tr>
+      <td>2286</td>
+      <td>Natural Fortitude</td>
+      <td>Minor</td>
+      <td>72</td>
+    </tr>
+    <tr>
+      <td>2287</td>
+      <td>Cleansing Unleash</td>
+      <td>Major</td>
+      <td>72</td>
+    </tr>
+    <tr>
+      <td>2288</td>
+      <td>Amplified Siphoning</td>
+      <td>Major</td>
+      <td>71</td>
+    </tr>
+    <tr>
+      <td>2289</td>
+      <td>Shadestep</td>
+      <td>Major</td>
+      <td>71</td>
+    </tr>
+    <tr>
+      <td>2290</td>
+      <td>Larcenous Torment</td>
+      <td>Major</td>
+      <td>71</td>
+    </tr>
+    <tr>
+      <td>2291</td>
+      <td>Mechanical Genius</td>
+      <td>Minor</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <td>2292</td>
+      <td>Mech Core: Jade Dynamo</td>
+      <td>Major</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <td>2294</td>
+      <td>Mech Frame: Variable Mass Distributor</td>
+      <td>Major</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <td>2295</td>
+      <td>Scepter Proficiency</td>
+      <td>Minor</td>
+      <td>71</td>
+    </tr>
+    <tr>
+      <td>2296</td>
+      <td>Mech Arms: High-Impact Drivers</td>
+      <td>Major</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <td>2297</td>
+      <td>Debilitating Blows</td>
+      <td>Major</td>
+      <td>72</td>
+    </tr>
+    <tr>
+      <td>2298</td>
+      <td>Mech Core: J-Drive</td>
+      <td>Major</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <td>2299</td>
+      <td>Shallow Grave</td>
+      <td>Major</td>
+      <td>71</td>
+    </tr>
+    <tr>
+      <td>2300</td>
+      <td>Hungering Darkness</td>
+      <td>Major</td>
+      <td>71</td>
+    </tr>
+    <tr>
+      <td>2301</td>
+      <td>Blinding Outburst</td>
+      <td>Major</td>
+      <td>72</td>
+    </tr>
+    <tr>
+      <td>2302</td>
+      <td>Fierce as Fire</td>
+      <td>Major</td>
+      <td>68</td>
+    </tr>
+    <tr>
+      <td>2303</td>
+      <td>Lush Forest</td>
+      <td>Major</td>
+      <td>68</td>
+    </tr>
+    <tr>
+      <td>1698</td>
+      <td>Lead the Wind</td>
+      <td>Major</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>2236</td>
+      <td>Guns and Glory</td>
+      <td>Minor</td>
+      <td>68</td>
+    </tr>
+  </tbody>
+</table>
+                </div>
+            </div>
+        </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest"></script>
+        <script>
+        const table = new simpleDatatables.DataTable("#traits")
+        </script>
+        {% endblock %} 
+        

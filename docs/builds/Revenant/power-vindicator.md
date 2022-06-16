@@ -7,7 +7,7 @@ tags:
   - dps
   - damage mitigation
 icon: material/arm-flex
-lastmod: 2022-05-06T12:05:57.339Z
+lastmod: 2022-06-15T11:58:12.799Z
 ---
 
 # Power Vindicator

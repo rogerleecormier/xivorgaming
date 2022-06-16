@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "e70598e815ae96d2a25e79b3c8436de4b94c19054f212a93e59608a606fa092d"
+            "sha256": "02839824489bb3e5c06f52d2286b1e13fff6afd4ccb7ba44bdb02ffb10407c22"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -31,6 +31,14 @@
             ],
             "index": "pypi",
             "version": "==0.8.1"
+        },
+        "backoff": {
+            "hashes": [
+                "sha256:407f1bc0f22723648a8880821b935ce5df8475cf04f7b6b5017ae264d30f6069",
+                "sha256:b135e6d7c7513ba2bfd6895bc32bc8c66c6f3b0279b4c6cd866053cfd7d3126b"
+            ],
+            "index": "pypi",
+            "version": "==2.1.2"
         },
         "bracex": {
             "hashes": [
@@ -197,6 +205,13 @@
             ],
             "index": "pypi",
             "version": "==3.1.27"
+        },
+        "guildwars2-api-client": {
+            "hashes": [
+                "sha256:8afde636872bf466e30159cb05aa6e03c35c5f05a787f6a47601b78908d41822"
+            ],
+            "index": "pypi",
+            "version": "==0.5.9"
         },
         "htmlmin": {
             "hashes": [
@@ -636,6 +651,13 @@
             ],
             "index": "pypi",
             "version": "==0.1"
+        },
+        "ratelimit": {
+            "hashes": [
+                "sha256:af8a9b64b821529aca09ebaf6d8d279100d766f19e90b5059ac6a718ca6dee42"
+            ],
+            "index": "pypi",
+            "version": "==2.2.1"
         },
         "regex": {
             "hashes": [
