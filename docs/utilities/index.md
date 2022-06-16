@@ -1,7 +1,7 @@
 ---
 template: overrides/utilities.html
 title: Utilities
-lastmod: 2022-06-16T13:40:18.374Z
+lastmod: 2022-06-16T16:33:19.575Z
 ---
 <div class="grid cards" markdown>
 
@@ -19,7 +19,7 @@ lastmod: 2022-06-16T13:40:18.374Z
 
     A sortable datatable of all minor and major traits in Guild Wars 2.
 
-    [:octicons-arrow-right-24: Go to Traits (Coming Soon)](/utilities/api_datatables/traits)
+    [:octicons-arrow-right-24: Go to Traits](/utilities/api_datatables/traits)
 
 -   :material-scale-balance:{ .lg .middle } __Skills Datatable__
 
