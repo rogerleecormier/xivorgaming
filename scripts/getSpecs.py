@@ -5,9 +5,8 @@ import yaml
 import pandas as pd
 from pandas.core.common import flatten
 import pandas.io.formats.style
-import os
-import re
 
+html_location = "../material/overrides/"
 search_term = "specializations"
 amount_per_chunk = 100
 time_between_chunks = 1
@@ -45,8 +44,7 @@ def get_yaml(lst):
 
 
 def get_html(lst):
-    PATH = "../material/overrides/"
-    HTML_NAME = PATH + search_term + ".html"
+    html_name = html_location + search_term + ".html"
     df = pd.DataFrame(data=lst)
     df.drop(
         [
@@ -89,24 +87,22 @@ def get_html(lst):
                 <div>
                     <h1>Specializations</h1>
         """
-    if type(df) == pd.io.formats.style.Styler:
-        result += df.render()
-    else:
-        result += df.to_html(
-            table_id=search_term, escape=False, border=0, index=False
-        )
-        result += """
-                </div>
+
+    result += df.to_html(
+        table_id=search_term, escape=False, border=0, index=False
+    )
+    result += """
             </div>
         </div>
-        </section>
-        <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest"></script>
-        <script>
-        const table = new simpleDatatables.DataTable("#specializations")
-        </script>
-        {% endblock %} 
-        """
-    with open(HTML_NAME, "w") as f:
+    </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest"></script>
+    <script>
+    const table = new simpleDatatables.DataTable("#specializations")
+    </script>
+    {% endblock %} 
+    """
+    with open(html_name, "w") as f:
         f.write(result)
 
 
@@ -130,17 +126,6 @@ for chunk in objChunks:
     for i in missedItems:
         spec = gw2.specializations.get(id=i)
         lstSearchItems.append(spec)
-    chkTotal = len(objChunks)
-for chkRem in range(len(objChunks), -1, -1):
-    print(
-        str(cntSpecs)
-        + " items processed in "
-        + str(chkTotal)
-        + " total chunks with "
-        + str(chkRem)
-        + " remaining to process."
-    )
-    # time.sleep(time_to_sleep)
 
 # get_json(lstSearchItems)
 # get_yaml(lstSearchItems)
