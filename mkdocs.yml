@@ -110,6 +110,7 @@ plugins:
       include_dir: snippets
   - snippet:
           base_path: docs
+  - badges
 
 
 # Customization

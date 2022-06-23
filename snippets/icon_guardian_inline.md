@@ -1,0 +1,1 @@
+![Guardian](https://res.cloudinary.com/xivorhub/image/upload/v1650847376/gw2_profession_icons/core/Guardian_tango_icon_20px_otj4a0.png){ .lg .middle } **Guardian**

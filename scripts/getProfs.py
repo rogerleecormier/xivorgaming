@@ -7,31 +7,31 @@ from pandas.core.common import flatten
 import pandas.io.formats.style
 
 html_location = "../material/overrides/"
-search_term = "specializations"
+search_term = "professions"
 amount_per_chunk = 100
 time_between_chunks = 1
 time_to_sleep = 60
 gw2 = GuildWars2Client()
-specializations = []
+professions = []
 
 print("Pulling data from the GW2 API...")
-for i in gw2.specializations.get():
-    specializations.append(i)
+for i in gw2.professions.get():
+    professions.append(i)
 
 print("Calculating total data pieces...")
-cntSpecs = len(specializations)
+cntprofs = len(professions)
 
 
 def get_chunks(size):
     chunked_list = [
-        specializations[i : i + size] for i in range(0, cntSpecs, size)
+        professions[i : i + size] for i in range(0, cntprofs, size)
     ]
     return chunked_list
 
 
 def get_json(lst):
     print("Writing JSON file...")
-    with open("specializations.json", "w") as outfile:
+    with open("professions.json", "w") as outfile:
         for item in lst:
             print(json.dumps(item), file=outfile)
 
@@ -59,7 +59,7 @@ def get_html(lst):
     )
     df.columns = [
         "API ID",
-        "Specialization",
+        "profession",
         "Profession",
         "Elite?",
         "Minor Trait IDs",
@@ -85,7 +85,7 @@ def get_html(lst):
         <div>
             <div>
                 <div>
-                    <h1>Specializations</h1>
+                    <h1>professions</h1>
         """
 
     result += df.to_html(
@@ -98,7 +98,7 @@ def get_html(lst):
     </section>
     <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest"></script>
     <script>
-    const table = new simpleDatatables.DataTable("#specializations")
+    const table = new simpleDatatables.DataTable("#professions")
     </script>
     {% endblock %} 
     """
@@ -114,18 +114,18 @@ for chunk in objChunks:
     i = 0
     # print(chunk) #debug
     for i in chunk:
-        spec = gw2.specializations.get(id=i)
-        if spec == {"text": "too many requests"}:
+        prof = gw2.professions.get(id=i)
+        if prof == {"text": "too many requests"}:
             print("API rate limit hit - sleeping for 60s...")
             missedItems.append(i)
             time.sleep(time_to_sleep)
         else:
-            lstSearchItems.append(spec)
+            lstSearchItems.append(prof)
         chunk_n = 0
         # print(missedItems) #debug
     for i in missedItems:
-        spec = gw2.specializations.get(id=i)
-        lstSearchItems.append(spec)
+        prof = gw2.professions.get(id=i)
+        lstSearchItems.append(prof)
 
 # get_json(lstSearchItems)
 get_yaml(lstSearchItems)
