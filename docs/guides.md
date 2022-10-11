@@ -1,9 +1,9 @@
 ---
 template: overrides/blog.html
 title: Guides
-lastmod: 2022-10-11T04:24:15.284Z
+lastmod: 2022-10-11T04:30:55.729Z
 ---
 <iframe
-  src="https://dps.report/gaKK-20221010-001120_wvw"
-  style="width:100%; height:800px;"
+  src="https://xivor.tk/guides/20221010-001120_detailed_wvw_kill.html"
+  style="width:100%; height:300px;"
 ></iframe>
