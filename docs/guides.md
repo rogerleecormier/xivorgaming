@@ -1,12 +1,12 @@
 ---
 template: overrides/blog.html
 title: Guides
-lastmod: 2022-10-11T05:05:09.388Z
+lastmod: 2022-10-11T05:13:30.174Z
 ---
 
 <style>
-#wrapper { width: 1080px; height: 1420px; padding: 0; overflow: hidden; }
-#scaled-frame { width: 1500px; height: 2000px; border: 0px; }
+#wrapper { width: 1380px; height: 1420px; padding: 0;  }
+#scaled-frame { width: 1380px; height: 2000px; border: 0px; }
 #scaled-frame {
     zoom: 0.71;
     -moz-transform: scale(0.75);
@@ -23,6 +23,6 @@ lastmod: 2022-10-11T05:05:09.388Z
 </style>
 
 <div id="wrapper">
-        <iframe id="scaled-frame" src="https://xivor.tk/guides/20221010-001120_detailed_wvw_kill.html" frameborder="0"  allow="fullscreen"></iframe>
+        <iframe id="scaled-frame" src="https://xivor.tk/guides/20221010-001120_detailed_wvw_kill.html" frameborder="0"  allow="fullscreen" scrolling="yes"></iframe>
 
 </div>
