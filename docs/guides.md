@@ -1,7 +1,7 @@
 ---
 template: overrides/blog.html
 title: Guides
-lastmod: 2022-10-11T04:53:51.872Z
+lastmod: 2022-10-11T04:56:02.761Z
 ---
 
 <style>
@@ -23,6 +23,6 @@ lastmod: 2022-10-11T04:53:51.872Z
 </style>
 
 <div id="wrapper">
-        <iframe id="scaled-frame" src="https://xivor.tk/guides/20221010-001120_detailed_wvw_kill.html" frameborder="0" allowfullscreen="" style="position:absolute; top:0; left: 0"></iframe>
+        <iframe id="scaled-frame" src="https://xivor.tk/guides/20221010-001120_detailed_wvw_kill.html" frameborder="0" allowfullscreen=""></iframe>
 
 </div>
