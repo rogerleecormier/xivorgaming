@@ -8,10 +8,13 @@ tags:
   - cleanse
   - stability
 icon: material/heart
-lastmod: 2022-06-15T11:54:03.523Z
+lastmod: 2022-10-11T03:14:30.907Z
 title: Support Firebrand
 slug: support-firebrand
-date: 2022-05-02T04:26:46.992Z
+date: 2022-10-11T03:14:29.897Z
+profession:
+  class: guardian
+  specialization: firebrand
 ---
 
 

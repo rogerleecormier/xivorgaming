@@ -1,5 +1,5 @@
 ---
-title: Power Reaper
+title: Blood Reaper
 tags:
   - frontline
   - necromancer
@@ -7,12 +7,12 @@ tags:
   - reaper
   - dps
 icon: material/arm-flex
-lastmod: 2022-10-11T03:11:36.415Z
+lastmod: 2022-10-11T03:12:05.049Z
 profession:
   class: necromancer
-  specialization: reape
-date: 2022-10-11T03:11:31.498Z
-slug: power-reaper
+  specialization: reaper
+slug: blood-reaper
+date: 2022-10-11T03:12:04.035Z
 ---
 
 Lorem Ipsum

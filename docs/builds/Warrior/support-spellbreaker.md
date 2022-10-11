@@ -8,6 +8,13 @@ tags:
   - cleanse
   - boon corruption
 icon: material/heart
-lastmod: 2022-05-03T00:33:09.572Z
+lastmod: 2022-10-11T03:17:37.978Z
+profession:
+  class: warrior
+  specialization: spellbreaker
+title: Support Spellbreaker
+slug: support-spellbreaker
+date: 2022-10-11T03:17:36.970Z
 ---
-lorem ipsum
+
+Lorem ipsum 

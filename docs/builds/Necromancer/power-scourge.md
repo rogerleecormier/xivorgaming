@@ -1,7 +1,5 @@
 ---
 title: Power Scourge
-lastmod: 2022-05-17T13:50:02.661Z
-icon: material/arm-flex
 tags:
   - dps
   - necromancer
@@ -9,5 +7,13 @@ tags:
   - scourge
   - midline
   - boon corruption
+icon: material/arm-flex
+lastmod: 2022-10-11T03:11:54.314Z
+profession:
+  class: necromancer
+  specialization: scourge
+slug: power-scourge
+date: 2022-10-11T03:11:53.291Z
 ---
-lorem ipsum
+
+Lorem Ipsum

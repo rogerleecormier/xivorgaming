@@ -46,41 +46,41 @@ A player in WvW is only as good as his build will allow him to be. It is importa
 
     ---
 
-    Powerful ranged damage dealer with good boon application and strong damage mitigation 
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 
-    [:octicons-arrow-right-24: Visit Build](/builds/guardian/condi-renegade/)
+    [:octicons-arrow-right-24: Visit Build](/builds/revenant/condi-renegade/)
     
 -   ![Herald](https://res.cloudinary.com/xivorhub/image/upload/v1650846823/gw2_profession_icons/hot/Herald_tango_icon_48px_fenkmt.png){ .lg .middle } __Power Herald__
 
     ---
 
-    Powerful ranged damage dealer with good boon application and strong damage mitigation 
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 
-    [:octicons-arrow-right-24: Visit Build](/builds/guardian/power_herald/)
+    [:octicons-arrow-right-24: Visit Build](/builds/revenant/power_herald/)
 
 -   ![Renegade](https://res.cloudinary.com/xivorhub/image/upload/v1650846887/gw2_profession_icons/pof/Renegade_tango_icon_48px_yf647x.png){ .lg .middle } __Power Renegade__
 
     ---
 
-    Powerful ranged damage dealer with good boon application and strong damage mitigation 
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 
-    [:octicons-arrow-right-24: Visit Build](/builds/guardian/power-renegade/)
+    [:octicons-arrow-right-24: Visit Build](/builds/revenant/power-renegade/)
 
--   ![Revenant](https://res.cloudinary.com/xivorhub/image/upload/v1650847381/gw2_profession_icons/core/Revenant_tango_icon_48px_f8kt8t.png){ .lg .middle } __Power Revenant__
+-   ![Revenant](https://res.cloudinary.com/xivorhub/image/upload/v1650847381/gw2_profession_icons/core/Revenant_tango_icon_48px_f8kt8t.png){ .lg .middle } __Support Vindicator__
 
     ---
 
-    Powerful ranged damage dealer with good boon application and strong damage mitigation 
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 
-    [:octicons-arrow-right-24: Visit Build](/builds/guardian/power_revenant/)    
+    [:octicons-arrow-right-24: Visit Build](/builds/revenant/support_vindicator/)    
 
 -   ![Vindicator](https://res.cloudinary.com/xivorhub/image/upload/v1650847546/gw2_profession_icons/eod/Vindicator_tango_icon_48px_pvkje7.png){ .lg .middle } __Power Vindicator__
 
     ---
 
-    Powerful ranged damage dealer with good boon application and strong damage mitigation 
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 
-    [:octicons-arrow-right-24: Visit Build](/builds/guardian/power_vindicator/)
+    [:octicons-arrow-right-24: Visit Build](/builds/revenant/power_vindicator/)
 
 
 </div>

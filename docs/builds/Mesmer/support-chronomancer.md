@@ -1,6 +1,6 @@
 ---
-title: Support Mesmer
-lastmod: 2022-05-17T13:49:58.329Z
+title: Support Chronomancer
+lastmod: 2022-10-11T03:17:00.892Z
 tags:
   - mesmer
   - chronomancer
@@ -8,5 +8,11 @@ tags:
   - utility
   - frontline
 icon: material/heart
+profession:
+  class: mesmer
+  specialization: chronomancer
+slug: support-mesmer
+date: 2022-10-11T03:16:38.376Z
 ---
-lorem ipsum
+
+Lorem ipsum

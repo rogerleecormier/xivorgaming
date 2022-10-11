@@ -7,5 +7,307 @@
       "title": "docs",
       "path": "[[workspace]]/docs"
     }
+  ],
+  "frontMatter.framework.startCommand": "",
+  "frontMatter.preview.host": "http://127.0.0.1:8000",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "boolean"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "lastmod",
+          "name": "lastmod",
+          "type": "datetime"
+        },
+        {
+          "title": "profession",
+          "name": "profession",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "class",
+              "name": "class",
+              "type": "string"
+            },
+            {
+              "title": "specialization",
+              "name": "specialization",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "title": "icon",
+          "name": "icon",
+          "type": "string"
+        },
+        {
+          "title": "gear",
+          "name": "gear",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "upgrades",
+              "name": "upgrades",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "rune",
+                  "name": "rune",
+                  "type": "string"
+                },
+                {
+                  "title": "infusion",
+                  "name": "infusion",
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "title": "head",
+              "name": "head",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "name",
+                  "name": "name",
+                  "type": "string"
+                },
+                {
+                  "title": "affix",
+                  "name": "affix",
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "title": "shoulders",
+              "name": "shoulders",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "name",
+                  "name": "name",
+                  "type": "string"
+                },
+                {
+                  "title": "affix",
+                  "name": "affix",
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "title": "chest",
+              "name": "chest",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "name",
+                  "name": "name",
+                  "type": "string"
+                },
+                {
+                  "title": "affix",
+                  "name": "affix",
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "title": "hands",
+              "name": "hands",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "name",
+                  "name": "name",
+                  "type": "string"
+                },
+                {
+                  "title": "affix",
+                  "name": "affix",
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "title": "legs",
+              "name": "legs",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "name",
+                  "name": "name",
+                  "type": "string"
+                },
+                {
+                  "title": "affix",
+                  "name": "affix",
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "title": "feet",
+              "name": "feet",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "name",
+                  "name": "name",
+                  "type": "string"
+                },
+                {
+                  "title": "affix",
+                  "name": "affix",
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "title": "back",
+              "name": "back",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "name",
+                  "name": "name",
+                  "type": "string"
+                },
+                {
+                  "title": "affix",
+                  "name": "affix",
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "title": "accessory1",
+              "name": "accessory1",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "name",
+                  "name": "name",
+                  "type": "string"
+                },
+                {
+                  "title": "affix",
+                  "name": "affix",
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "title": "accessory2",
+              "name": "accessory2",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "name",
+                  "name": "name",
+                  "type": "string"
+                },
+                {
+                  "title": "affix",
+                  "name": "affix",
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "title": "ring1",
+              "name": "ring1",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "name",
+                  "name": "name",
+                  "type": "string"
+                },
+                {
+                  "title": "affix",
+                  "name": "affix",
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "title": "ring2",
+              "name": "ring2",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "name",
+                  "name": "name",
+                  "type": "string"
+                },
+                {
+                  "title": "affix",
+                  "name": "affix",
+                  "type": "string"
+                }
+              ]
+            },
+            {
+              "title": "amulet",
+              "name": "amulet",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "name",
+                  "name": "name",
+                  "type": "string"
+                },
+                {
+                  "title": "affix",
+                  "name": "affix",
+                  "type": "string"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
   ]
 }

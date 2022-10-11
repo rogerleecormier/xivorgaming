@@ -7,6 +7,13 @@ tags:
   - DPS
   - boon corruption
 icon: material/arm-flex
-lastmod: 2022-06-16T16:36:03.364Z
+lastmod: 2022-10-11T03:23:11.401Z
+title: Power Spellbreaker
+profession:
+  class: warrior
+  specialization: spellbreaker
+slug: power-spellbreaker
+date: 2022-10-11T03:23:10.393Z
 ---
-lorem ipsum
+
+Lorem ipsum 

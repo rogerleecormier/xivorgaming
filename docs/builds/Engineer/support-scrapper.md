@@ -1,6 +1,5 @@
 ---
 title: Support Scrapper
-lastmod: 2022-05-17T13:49:54.524Z
 tags:
   - scrapper
   - engineer
@@ -10,5 +9,12 @@ tags:
   - cleanse
   - barrier
 icon: material/heart
+lastmod: 2022-10-11T03:13:23.132Z
+slug: support-scrapper
+profession:
+  class: engineer
+  specialization: scrapper
+date: 2022-10-11T03:13:22.116Z
 ---
-lorem ipsum
+
+Lorem ipsum
