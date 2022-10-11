@@ -1,19 +1,19 @@
 ---
 template: overrides/blog.html
 title: Guides
-lastmod: 2022-10-11T04:49:20.381Z
+lastmod: 2022-10-11T04:53:51.872Z
 ---
 
 <style>
-#wrapper { width: 710px; height: 1420px; padding: 0; overflow: hidden; }
-#scaled-frame { width: 1000px; height: 2000px; border: 0px; }
+#wrapper { width: 1080px; height: 1420px; padding: 0; overflow: hidden; }
+#scaled-frame { width: 1350px; height: 2000px; border: 0px; }
 #scaled-frame {
     zoom: 0.71;
-    -moz-transform: scale(0.71);
+    -moz-transform: scale(0.75);
     -moz-transform-origin: 0 0;
-    -o-transform: scale(0.71);
+    -o-transform: scale(0.75);
     -o-transform-origin: 0 0;
-    -webkit-transform: scale(0.71);
+    -webkit-transform: scale(0.75);
     -webkit-transform-origin: 0 0;
 }
 
