@@ -1,7 +1,7 @@
 ---
 template: overrides/utilities.html
 title: Utilities
-lastmod: 2022-06-16T16:33:19.575Z
+lastmod: 2023-01-01T02:15:43.902Z
 ---
 <div class="grid cards" markdown>
 
@@ -9,7 +9,7 @@ lastmod: 2022-06-16T16:33:19.575Z
 
     ---
 
-    A sortable datatable of all specializations and professions in Guild Wars 2.
+    A sortable datatable of all specializations in Guild Wars 2.
 
     [:octicons-arrow-right-24: Go to Specializations](/utilities/api_datatables/specializations)
 
@@ -17,17 +17,17 @@ lastmod: 2022-06-16T16:33:19.575Z
 
     ---
 
-    A sortable datatable of all minor and major traits in Guild Wars 2.
+    A sortable datatable of all traits in Guild Wars 2.
 
-    [:octicons-arrow-right-24: Go to Traits](/utilities/api_datatables/traits)
+    [:octicons-arrow-right-24: Go to Traits](/utilities/api_datatables/professions)
 
--   :material-scale-balance:{ .lg .middle } __Skills Datatable__
+-   :material-scale-balance:{ .lg .middle } __Professions Datatable__
 
     ---
 
-    A sortable datatable of all skills in Guild Wars 2.
+    A sortable datatable of all professions in Guild Wars 2.
 
-    [:octicons-arrow-right-24: Go to Skills (Coming Soon)](#)
+    [:octicons-arrow-right-24: Go to Skills](#)
 
 -   :material-scale-balance:{ .lg .middle } __Affixes Datatable__
 

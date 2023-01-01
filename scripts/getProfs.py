@@ -49,34 +49,32 @@ def get_html(lst):
     df.drop(
         [
             "icon",
-            "background",
-            "weapon_trait",
-            "profession_icon_big",
-            "profession_icon",
+            "icon_big",
+            "weapons",
+            "training",
+            "flags",
+            "skills",
         ],
         axis=1,
         inplace=True,
     )
     df.columns = [
         "API ID",
-        "profession",
         "Profession",
-        "Elite?",
-        "Minor Trait IDs",
-        "Major Trait IDs",
+        "Specialization IDs",
     ]
     df.set_index("API ID")
-    df["Trait IDs"] = df["Major Trait IDs"] + df["Minor Trait IDs"]
+    #df["Trait IDs"] = df["Major Trait IDs"] + df["Minor Trait IDs"]
     flattened_col = pd.DataFrame(
         [
             (index, value)
-            for (index, values) in df["Trait IDs"].iteritems()
+            for (index, values) in df["Specialization IDs"].iteritems()
             for value in values
         ],
-        columns=["index", "Trait IDs"],
+        columns=["index", "Specialization IDs"],
     ).set_index("index")
-    df = df.drop("Trait IDs", axis=1).join(flattened_col)
-    df.drop(["Minor Trait IDs", "Major Trait IDs"], axis=1, inplace=True)
+    df = df.drop("Specialization IDs", axis=1).join(flattened_col)
+    #df.drop(["Minor Trait IDs", "Major Trait IDs"], axis=1, inplace=True)
 
     result = """
         {% extends "overrides/main.html" %}
@@ -85,7 +83,7 @@ def get_html(lst):
         <div>
             <div>
                 <div>
-                    <h1>professions</h1>
+                    <h1>Professions</h1>
         """
 
     result += df.to_html(
@@ -128,6 +126,6 @@ for chunk in objChunks:
         lstSearchItems.append(prof)
 
 # get_json(lstSearchItems)
-get_yaml(lstSearchItems)
-#get_html(lstSearchItems)
+#get_yaml(lstSearchItems)
+get_html(lstSearchItems)
 print("Process complete")

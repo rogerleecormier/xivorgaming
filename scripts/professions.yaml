@@ -1129,10 +1129,10 @@
     slot: Elite
     type: Elite
   - id: 30435
-    slot: Profession_1
+    slot: Profession_2
     type: Profession
   - id: 30185
-    slot: Profession_1
+    slot: Profession_2
     type: Profession
   - id: 29644
     slot: Profession_1
@@ -1254,7 +1254,7 @@
   - id: 62901
     slot: Elite
     type: Elite
-  - id: 62943
+  - id: 68085
     slot: Utility
     type: Utility
   - id: 62745
@@ -1735,7 +1735,7 @@
       trait_id: 2261
     - cost: 165
       type: Skill
-      skill_id: 62943
+      skill_id: 68085
     - cost: 180
       type: Skill
       skill_id: 62804
@@ -1815,9 +1815,9 @@
       skills:
       - id: 6003
         slot: Weapon_1
-      - id: 6004
-        slot: Weapon_2
       - id: 6153
+        slot: Weapon_2
+      - id: 6004
         slot: Weapon_3
       - id: 6154
         slot: Weapon_4
@@ -2911,6 +2911,9 @@
     type: Profession
   - id: 43014
     slot: Profession_5
+    type: Profession
+  - id: 59554
+    slot: Profession_4
     type: Profession
   - id: 63319
     slot: Heal
@@ -5752,7 +5755,7 @@
     slot: Profession_3
     type: Profession
   - id: 29830
-    slot: Profession_4
+    slot: Profession_5
     type: Profession
   - id: 30359
     slot: Elite
@@ -5806,7 +5809,7 @@
     slot: Profession_3
     type: Profession
   - id: 62597
-    slot: Profession_4
+    slot: Profession_5
     type: Profession
   - id: 45425
     slot: Utility
@@ -5820,6 +5823,9 @@
   - id: 35637
     slot: Utility
     type: Utility
+  - id: 68273
+    slot: Profession_4
+    type: Profession
   training:
   - id: 98
     category: Skills
@@ -6657,6 +6663,15 @@
     type: Profession
   - id: 62563
     slot: Weapon_5
+    type: Profession
+  - id: 10644
+    slot: Downed_2
+    type: Profession
+  - id: 10645
+    slot: Downed_3
+    type: Profession
+  - id: 10643
+    slot: Downed_4
     type: Profession
   training:
   - id: 23
