@@ -1,7 +1,7 @@
 ---
 template: overrides/utilities.html
 title: Utilities
-lastmod: 2023-01-01T02:15:43.902Z
+lastmod: 2023-01-01T02:21:46.023Z
 ---
 <div class="grid cards" markdown>
 
@@ -27,7 +27,7 @@ lastmod: 2023-01-01T02:15:43.902Z
 
     A sortable datatable of all professions in Guild Wars 2.
 
-    [:octicons-arrow-right-24: Go to Skills](#)
+    [:octicons-arrow-right-24: Go to Professions](#)
 
 -   :material-scale-balance:{ .lg .middle } __Affixes Datatable__
 
