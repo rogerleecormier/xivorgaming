@@ -111,6 +111,7 @@ plugins:
   - snippet:
           base_path: docs
   - badges
+  - glightbox
 
 
 # Customization

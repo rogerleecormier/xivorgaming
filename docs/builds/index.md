@@ -1,23 +1,43 @@
 # Builds
-A player in WvW is only as good as his build will allow him to be. It is important to select a build that fits your team composition properly. See below for our recommended builds, sorted into primary categories based primary class.
+A player in WvW is only as good as his build will allow him to be. It is important to select a build that fits your team composition properly. See below for the builds that I play and how to play them.
+
+## Engineer Builds
+<div class="grid cards" markdown>
+
+-   ![Scrapper](https://res.cloudinary.com/xivorhub/image/upload/v1650846729/gw2_profession_icons/hot/Scrapper_tango_icon_48px_try1xg.png){ .lg .middle } __Power Scrapper__
+
+    ---
+
+    (coming soon)
+
+    [:octicons-arrow-right-24: Visit Build](/builds/engineer/power_scrapper/)    
+
+-   ![Scrapper](https://res.cloudinary.com/xivorhub/image/upload/v1650846729/gw2_profession_icons/hot/Scrapper_tango_icon_48px_try1xg.png){ .lg .middle } __Support Scrapper__
+
+    ---
+
+    (coming soon)
+
+    [:octicons-arrow-right-24: Visit Build](/builds/engineer/support_scrapper/)  
+
+</div>
 
 ## Guardian Builds
 <div class="grid cards" markdown>
 
--   ![Guardian](https://res.cloudinary.com/xivorhub/image/upload/v1650847376/gw2_profession_icons/core/Guardian_tango_icon_48px_wo2xxy.png){ .lg .middle } __Condi Guardian__
+-   ![Firebrand](https://res.cloudinary.com/xivorhub/image/upload/v1650846951/gw2_profession_icons/pof/Firebrand_tango_icon_48px_wqhcyn.png){ .lg .middle } __Condi Firebrand__
 
     ---
 
-    Powerful ranged damage dealer with good boon application and strong damage mitigation 
+    (coming soon)
 
-    [:octicons-arrow-right-24: Visit Build](/builds/guardian/condi-guardian/)
-    
-    
+    [:octicons-arrow-right-24: Visit Build](/builds/guardian/condi-firebrand/) 
+      
 -   ![Dragonhunter](https://res.cloudinary.com/xivorhub/image/upload/v1650846730/gw2_profession_icons/hot/Dragonhunter_tango_icon_48px_ksn5rc.png){ .lg .middle } __Power Dragonhunter__
 
     ---
 
-    Excellent burst damage as well as long-fight damage while providing top-class boon corruption to the enemy
+    Excellent melee burst damage as well as best in class ranged hard CC. (coming soon)
 
     [:octicons-arrow-right-24: Visit Build](/builds/guardian/power-dragonhunter/)
 
@@ -25,104 +45,52 @@ A player in WvW is only as good as his build will allow him to be. It is importa
 
     ---
 
-    Arguably the best healing for the team, with excellent utility with strong stealth, cleanse, and barrier to buff allies
+    Powerful ranged damage dealer with access to Stability and Reflects for group support. (coming soon)
 
     [:octicons-arrow-right-24: Visit Build](/builds/guardian/power-guardian/)
-
+  
 -   ![Firebrand](https://res.cloudinary.com/xivorhub/image/upload/v1650846951/gw2_profession_icons/pof/Firebrand_tango_icon_48px_wqhcyn.png){ .lg .middle } __Support Firebrand__
 
     ---
 
-    Excellent utility and support, one of the stronger healers and most useful utility classes for a group
+    Strong group healer that brings defensive boons, condition cleanse, and unique utility support skills. (coming soon)
 
-    [:octicons-arrow-right-24: Visit Build](/builds/guardian/support_firebrand/)
+    [:octicons-arrow-right-24: Visit Build](/builds/guardian/support-firebrand/) 
+
 
 </div>
 
 ## Revenant Builds
+
 <div class="grid cards" markdown>
+-   ![Herald](https://res.cloudinary.com/xivorhub/image/upload/v1650846823/gw2_profession_icons/hot/Herald_tango_icon_48px_fenkmt.png){ .lg .middle } __Power Herald__
+
+    ---
+
+    (coming soon)
+
+    [:octicons-arrow-right-24: Visit Build](/builds/revenant/power_herald/)
 
 -   ![Renegade](https://res.cloudinary.com/xivorhub/image/upload/v1650846887/gw2_profession_icons/pof/Renegade_tango_icon_48px_yf647x.png){ .lg .middle } __Condi Renegade__
 
     ---
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    (coming soon)
 
     [:octicons-arrow-right-24: Visit Build](/builds/revenant/condi-renegade/)
     
--   ![Herald](https://res.cloudinary.com/xivorhub/image/upload/v1650846823/gw2_profession_icons/hot/Herald_tango_icon_48px_fenkmt.png){ .lg .middle } __Power Herald__
-
-    ---
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-
-    [:octicons-arrow-right-24: Visit Build](/builds/revenant/power_herald/)
-
 -   ![Renegade](https://res.cloudinary.com/xivorhub/image/upload/v1650846887/gw2_profession_icons/pof/Renegade_tango_icon_48px_yf647x.png){ .lg .middle } __Power Renegade__
 
     ---
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    (coming soon)
 
     [:octicons-arrow-right-24: Visit Build](/builds/revenant/power-renegade/)
-
--   ![Revenant](https://res.cloudinary.com/xivorhub/image/upload/v1650847381/gw2_profession_icons/core/Revenant_tango_icon_48px_f8kt8t.png){ .lg .middle } __Support Vindicator__
-
-    ---
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-
-    [:octicons-arrow-right-24: Visit Build](/builds/revenant/support_vindicator/)    
-
--   ![Vindicator](https://res.cloudinary.com/xivorhub/image/upload/v1650847546/gw2_profession_icons/eod/Vindicator_tango_icon_48px_pvkje7.png){ .lg .middle } __Power Vindicator__
-
-    ---
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-
-    [:octicons-arrow-right-24: Visit Build](/builds/revenant/power_vindicator/)
-
+    
 
 </div>
 
 ## More Builds
-<div class="grid cards" markdown>
-
--   ![Dummy](https://dummyimage.com/48x48/000/fff&text=Dummy){ .lg .middle } __Dummy Build__
-
-    ---
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-
-    [:octicons-arrow-right-24: Visit Build](#)
-
--   ![Dummy](https://dummyimage.com/48x48/000/fff&text=Dummy){ .lg .middle } __Dummy Build__
-
-    ---
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-
-    [:octicons-arrow-right-24: Visit Build](#)
-
--   ![Dummy](https://dummyimage.com/48x48/000/fff&text=Dummy){ .lg .middle } __Dummy Build__
-
-    ---
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-
-    [:octicons-arrow-right-24: Visit Build](#)
-
--   ![Dummy](https://dummyimage.com/48x48/000/fff&text=Dummy){ .lg .middle } __Dummy Build__
-
-    ---
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-
-    [:octicons-arrow-right-24: Visit Build](#)
-
-</div>
-
-## Support/Utility Builds
 <div class="grid cards" markdown>
 
 -   ![Dummy](https://dummyimage.com/48x48/000/fff&text=Dummy){ .lg .middle } __Dummy Build__
