@@ -86,6 +86,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://xivor.tk/utilities/api_datatables/professions/</loc>
+         <lastmod>2023-01-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://xivor.tk/utilities/api_datatables/specializations/</loc>
          <lastmod>2023-01-01</lastmod>
          <changefreq>daily</changefreq>
