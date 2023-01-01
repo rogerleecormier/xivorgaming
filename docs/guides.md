@@ -1,7 +1,10 @@
 ---
 template: overrides/blog.html
 title: Guides
-lastmod: 2022-10-11T05:13:30.174Z
+lastmod: 2023-01-01T01:47:43.887Z
+hide:
+  - navigation
+  - toc
 ---
 
 <style>
