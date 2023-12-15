@@ -20,17 +20,17 @@
 
 # Project information
 site_name: XivorGaming
-site_url: https://xivor.tk
+site_url: https://xivor.tme
 site_author: Roger Cormier
 site_description: >-  
   XivorGaming is a resource of information, guides, and builds to grow battlefield warriors in competitive world PvP in the MMORPG Guild Wars 2.
 
 # Repository
 repo_name: xivor/xivortech
-repo_url: https://github.com/xivor/xivortech
+repo_url: https://github.com/rogerleecormier/xivorgaming
 
 # Copyright
-copyright: Copyright &copy; 2022 Roger Cormier
+copyright: Copyright &copy; 2023 Roger Cormier
 
 # Configuration
 docs_dir: "docs"
@@ -57,6 +57,7 @@ theme:
   features:
     - announce.dismiss
     - content.code.annotate
+    - content.code.copy
     # - content.tabs.link
     # - header.autohide
     - navigation.expand
@@ -105,13 +106,13 @@ plugins:
       redirect_maps:
   - minify:
       minify_html: true
-  - tags
+  #- tags
   - macros:
       include_dir: snippets
-  - snippet:
-          base_path: docs
-  - badges
-  - glightbox
+  #- snippet:
+  #        base_path: docs
+  #- badges
+  #- glightbox
 
 
 # Customization
@@ -163,8 +164,8 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
       options:
         custom_icons:
           - overrides/.icons
